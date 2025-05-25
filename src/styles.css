@@ -1,0 +1,9 @@
+@layer reset, variables, fonts, base, components;
+
+@import 'styles/reset.css' layer(reset);
+@import 'styles/variables.css' layer(variables);
+@import 'styles/fonts.css' layer(fonts);
+@import 'styles/base.css' layer(base);
+
+@import 'styles/components/button.css' layer(components);
+@import 'styles/components/link.css' layer(components);

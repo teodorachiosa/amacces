@@ -1,0 +1,14 @@
+body {
+  font-family: "Inclusive Sans", sans-serif;
+  color: var(--body-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Literata", serif;
+  font-style: italic;
+}

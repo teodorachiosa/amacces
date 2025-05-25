@@ -1,0 +1,25 @@
+/* Inclusive Sans */
+@font-face {
+  font-family: "Inclusive Sans";
+  src: url("^./../../../public/assets/fonts/Inclusive_Sans/InclusiveSans-VariableFont_wght.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inclusive Sans";
+  src: url("^./../../../public/assets/fonts/Inclusive_Sans/InclusiveSans-Italic-VariableFont_wght.ttf");
+  font-style: italic;
+}
+
+/* Literata */
+@font-face {
+  font-family: "Literata";
+  src: url("^./../../../public/assets/fonts/Literata/Literata-VariableFont_opsz,wght.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Literata";
+  src: url("^./../../../public/assets/fonts/Literata/Literata-Italic-VariableFont_opsz,wght.ttf");
+  font-style: italic;
+}

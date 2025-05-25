@@ -1,0 +1,78 @@
+body {
+  line-height: 1.7;
+}
+
+input,
+button,
+textarea,
+select {
+  color: inherit;
+  font: inherit;
+}
+
+button {
+  border: 1px solid transparent;
+} 
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  text-wrap: balance;
+}
+
+body {
+  margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: 0;
+  margin: -1px;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  outline: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+:focus-visible,
+.skip-link:focus-visible {
+  outline: auto;
+  outline-offset: 4px;
+  outline-color: black;
+}
+
+.skip-link:focus-visible {
+  width: auto;
+  height: auto;
+  clip: unset;
+  background-color: var(--revert-body-color);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::after,
+  *::before {
+    animation-duration: 0ms;
+    transition-duration: 0ms;
+    scroll-behavior: auto;
+  }
+}
