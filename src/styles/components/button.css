@@ -14,13 +14,43 @@ button {
     oklch(from var(--button__background-color) calc(l - 0.2) c h)
   );
 
-  background-color: var(--button__default__background-color);
+  position: relative;
+  background-color: transparent;
   font-weight: 600;
   transition: var(--short-transition) ease-in-out;
   padding: 0.4rem 0.8rem;
   border-radius: 0.5rem;
-  box-shadow: inset 0 0 0 2px var(--invert-body-color);
-  border: 2px solid transparent;
+  border-image-slice: 41;
+  border-image-width: 8px;
+  border-image-repeat: stretch;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    background-color: var(--button__default__background-color);
+    filter: blur(10px);
+    z-index: -1;
+    transition: var(--short-transition) ease-in-out;
+  }
+
+  &:nth-of-type(2n) {
+    border-image-source: url("/assets/images/border.svg");
+  }
+
+  &:nth-of-type(2n + 1) {
+    border-image-source: url("/assets/images/border2.svg");
+  }
+
+  @media (prefers-color-scheme: dark) {
+    &:nth-of-type(2n) {
+      border-image-source: url("/assets/images/border-w.svg");
+    }
+
+    &:nth-of-type(2n + 1) {
+      border-image-source: url("/assets/images/border-w2.svg");
+    }
+  }
 
   &.success {
     --button__background-color: var(--success-color);
@@ -32,13 +62,23 @@ button {
 
   &:hover,
   &:focus-visible {
-    background-color: var(--button__hover__background-color);
-    transform-origin: center bottom;
+    scale: 1.02;
+
+    &::after {
+      background-color: var(--button__hover__background-color);
+    }
   }
 
   &:active {
-    background-color: var(--button__active__background-color);
-    scale: 1 0.95;
+    scale: 1 0.93;
     transform-origin: center bottom;
+
+    &::after {
+      background-color: var(--button__active__background-color);
+    }
   }
+}
+
+.button-border {
+  color: currentColor;
 }

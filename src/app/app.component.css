@@ -4,3 +4,8 @@
     left: 0.5rem;
   }
 }
+
+main {
+  display: flex;
+  gap: 0.3rem;
+}
