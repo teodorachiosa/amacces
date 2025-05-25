@@ -11,7 +11,7 @@
     oklch(from var(--white) calc(l - 1) c h),
     var(--white)
   );
-  --revert-body-color: light-dark(
+  --invert-body-color: light-dark(
     var(--white),
     oklch(from var(--white) calc(l - 1) c h)
   );
