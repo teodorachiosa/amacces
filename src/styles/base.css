@@ -1,6 +1,8 @@
 body {
   font-family: "Inclusive Sans", sans-serif;
   color: var(--body-color);
+  background-color: color-mix(in srgb, var(--invert-body-color), var(--black) 5%);
+
 }
 
 h1,

@@ -3,9 +3,10 @@
 
   /* Colors */
   --white: oklch(1 0 0);
-  --accent-color: oklch(0.5 0.15 307);
+  --black: oklch(from var(--white) calc(l - 1) c h);
+  --accent-color: oklch(0.7 0.2 307);
   --danger-color: oklch(from var(--accent-color) l c calc(h * 0 + 13));
-  --success-color: oklch(from var(--accent-color) l c calc(h * 0 + 138));
+  --success-color: oklch(from var(--accent-color) l c calc(h * 0 + 155));
 
   --body-color: light-dark(
     oklch(from var(--white) calc(l - 1) c h),

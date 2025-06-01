@@ -6,51 +6,60 @@ button {
     oklch(from var(--button__background-color) calc(l - 0.15) c h)
   );
   --button__hover__background-color: light-dark(
-    oklch(from var(--button__background-color) calc(l + 0.4) c h),
-    oklch(from var(--button__background-color) calc(l - 0.1) c h)
+    oklch(from var(--button__background-color) calc(l + 0.4) calc(c - 0.05) h),
+    oklch(from var(--button__background-color) calc(l - 0.1) calc(c + 0.05) h)
   );
   --button__active__background-color: light-dark(
     oklch(from var(--button__background-color) calc(l + 0.3) c h),
     oklch(from var(--button__background-color) calc(l - 0.2) c h)
   );
+  --top-highlight-percentage: 70%;
+  --bottom-shadow-percentage: 20%;
+  --elevation-1: 1px;
+  --elevation-2: 2px;
+  --elevation-3: 3px;
 
-  position: relative;
-  background-color: transparent;
-  font-weight: 600;
-  transition: var(--short-transition) ease-in-out;
+  font-weight: 500;
   padding: 0.4rem 0.8rem;
-  border-radius: 0.5rem;
-  border-image-slice: 41;
-  border-image-width: 8px;
-  border-image-repeat: stretch;
-
-  &::after {
-    content: "";
-    position: absolute;
-    inset: 5px;
-    background-color: var(--button__default__background-color);
-    filter: blur(10px);
-    z-index: -1;
-    transition: var(--short-transition) ease-in-out;
-  }
-
-  &:nth-of-type(2n) {
-    border-image-source: url("/assets/images/border.svg");
-  }
-
-  &:nth-of-type(2n + 1) {
-    border-image-source: url("/assets/images/border2.svg");
-  }
-
-  @media (prefers-color-scheme: dark) {
-    &:nth-of-type(2n) {
-      border-image-source: url("/assets/images/border-w.svg");
-    }
-
-    &:nth-of-type(2n + 1) {
-      border-image-source: url("/assets/images/border-w2.svg");
-    }
-  }
+  border-radius: 8px;
+  border: 2px solid
+    color-mix(
+      in srgb-linear,
+      var(--button__default__background-color),
+      var(--black) 60%
+    );
+  background-color: var(--button__default__background-color);
+  transition: var(--short-transition) ease-in-out;
+  box-shadow: inset 0 0.05rem 0.1rem
+      color-mix(
+        in srgb-linear,
+        var(--button__default__background-color),
+        var(--white) var(--top-highlight-percentage)
+      ),
+    inset 0 2.1rem 1.5rem
+      color-mix(
+        in srgb-linear,
+        var(--button__default__background-color),
+        var(--black) var(--bottom-shadow-percentage)
+      ),
+    var(--elevation-1) var(--elevation-1) 0 0
+      color-mix(
+        in srgb-linear,
+        var(--button__default__background-color),
+        var(--black) 60%
+      ),
+    var(--elevation-2) var(--elevation-2) 0 0
+      color-mix(
+        in srgb-linear,
+        var(--button__default__background-color),
+        var(--black) 60%
+      ),
+    var(--elevation-3) var(--elevation-3) 0 0
+      color-mix(
+        in srgb-linear,
+        var(--button__default__background-color),
+        var(--black) 60%
+      );
 
   &.success {
     --button__background-color: var(--success-color);
@@ -62,23 +71,23 @@ button {
 
   &:hover,
   &:focus-visible {
-    scale: 1.02;
+    --top-highlight-percentage: 90%;
+    --bottom-shadow-percentage: 0%;
 
-    &::after {
-      background-color: var(--button__hover__background-color);
-    }
+    scale: 1.02;
+    background-color: var(--button__hover__background-color);
   }
 
   &:active {
-    scale: 1 0.93;
+    --top-highlight-percentage: 0%;
+    --bottom-shadow-percentage: 50%;
+    --elevation-1: 1px;
+    --elevation-2: 0;
+    --elevation-3: 0;
+
+    scale: 1 0.95;
+    translate: 1px 1px;
     transform-origin: center bottom;
-
-    &::after {
-      background-color: var(--button__active__background-color);
-    }
+    background-color: var(--button__active__background-color);
   }
-}
-
-.button-border {
-  color: currentColor;
 }
