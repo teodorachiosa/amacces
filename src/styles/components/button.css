@@ -23,13 +23,14 @@ button {
 
   color: light-dark(var(--black), var(--white));
   font-weight: 500;
+  letter-spacing: 0.5px;
   padding: 0.4rem 0.8rem;
   border-radius: 8px;
   border: 2px solid
     color-mix(
       in srgb-linear,
       var(--button__default__background-color),
-      var(--black) 60%
+      var(--black) 80%
     );
   background-color: var(--button__default__background-color);
   transition: var(--short-transition) ease-in-out;
@@ -49,19 +50,19 @@ button {
       color-mix(
         in srgb-linear,
         var(--button__default__background-color),
-        var(--black) 55%
+        var(--black) 70%
       ),
     var(--elevation-2) var(--elevation-2) 0 0
       color-mix(
         in srgb-linear,
         var(--button__default__background-color),
-        var(--black) 55%
+        var(--black) 70%
       ),
     var(--elevation-3) var(--elevation-3) 0 0
       color-mix(
         in srgb-linear,
         var(--button__default__background-color),
-        var(--black) 55%
+        var(--black) 70%
       );
 
   &.success {
