@@ -1,24 +1,27 @@
 button {
   --button__background-color: var(--accent-color);
+  --darkness-multiplier: 1;
 
   --button__default__background-color: light-dark(
     oklch(from var(--button__background-color) calc(l + 0.35) c h),
-    oklch(from var(--button__background-color) calc(l - 0.15) c h)
+    oklch(from var(--button__background-color) calc(l - var(--darkness-multiplier) * 0.35) c h)
   );
   --button__hover__background-color: light-dark(
     oklch(from var(--button__background-color) calc(l + 0.4) calc(c - 0.05) h),
-    oklch(from var(--button__background-color) calc(l - 0.1) calc(c + 0.05) h)
+    oklch(from var(--button__background-color) calc(l - var(--darkness-multiplier) * 0.3) calc(c + 0.05) h)
   );
   --button__active__background-color: light-dark(
     oklch(from var(--button__background-color) calc(l + 0.3) c h),
-    oklch(from var(--button__background-color) calc(l - 0.2) c h)
+    oklch(from var(--button__background-color) calc(l - var(--darkness-multiplier) * 0.4) c h)
   );
-  --top-highlight-percentage: 70%;
-  --bottom-shadow-percentage: 20%;
+
+  --top-highlight-percentage: 50%;
+  --bottom-shadow-percentage: 30%;
   --elevation-1: 1px;
   --elevation-2: 2px;
   --elevation-3: 3px;
 
+  color: light-dark(var(--black), var(--white));
   font-weight: 500;
   padding: 0.4rem 0.8rem;
   border-radius: 8px;
@@ -46,19 +49,19 @@ button {
       color-mix(
         in srgb-linear,
         var(--button__default__background-color),
-        var(--black) 60%
+        var(--black) 55%
       ),
     var(--elevation-2) var(--elevation-2) 0 0
       color-mix(
         in srgb-linear,
         var(--button__default__background-color),
-        var(--black) 60%
+        var(--black) 55%
       ),
     var(--elevation-3) var(--elevation-3) 0 0
       color-mix(
         in srgb-linear,
         var(--button__default__background-color),
-        var(--black) 60%
+        var(--black) 55%
       );
 
   &.success {
@@ -67,6 +70,12 @@ button {
 
   &.danger {
     --button__background-color: var(--danger-color);
+  }
+
+  &.secondary {
+    --darkness-multiplier: 1.9;
+
+    --button__background-color: var(--white);
   }
 
   &:hover,
