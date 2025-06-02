@@ -14,7 +14,7 @@
   );
   --invert-body-color: light-dark(
     var(--white),
-    oklch(from var(--white) calc(l - 1) c h)
+    oklch(from var(--white) calc(l - 0.85) calc(c + 0.04) calc(h + 350))
   );
 
   /* Animations */

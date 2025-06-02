@@ -11,7 +11,7 @@
     background-color: color-mix(
       in srgb,
       var(--invert-body-color),
-      var(--white) 15%
+      var(--white) 7%
     );
   }
 
