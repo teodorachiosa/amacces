@@ -6,7 +6,7 @@
   --black: oklch(from var(--white) calc(l - 1) c h);
   --accent-color: oklch(0.7 0.2 307);
   --danger-color: oklch(from var(--accent-color) l c calc(h * 0 + -10));
-  --success-color: oklch(from var(--accent-color) l calc(c - 0.03) calc(h * 0 + 165));
+  --success-color: oklch(from var(--accent-color) l calc(c - 0.06) calc(h * 0 + 165));
 
   --body-color: light-dark(
     oklch(from var(--white) calc(l - 1) c h),
@@ -14,7 +14,7 @@
   );
   --invert-body-color: light-dark(
     var(--white),
-    oklch(from var(--white) calc(l - 0.85) calc(c + 0.04) calc(h + 350))
+    oklch(from var(--white) calc(l - 0.87) calc(c + 0.02) calc(h + 350))
   );
 
   /* Animations */
