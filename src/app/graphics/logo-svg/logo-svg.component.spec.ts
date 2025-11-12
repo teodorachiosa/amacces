@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CatInABoxComponent } from './cat-in-a-box.component';
+import { LogoSvgComponent } from './logo-svg.component';
 
-describe('CatInABoxComponent', () => {
-  let component: CatInABoxComponent;
-  let fixture: ComponentFixture<CatInABoxComponent>;
+describe('LogoSvgComponent', () => {
+  let component: LogoSvgComponent;
+  let fixture: ComponentFixture<LogoSvgComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CatInABoxComponent]
+      imports: [LogoSvgComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CatInABoxComponent);
+    fixture = TestBed.createComponent(LogoSvgComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

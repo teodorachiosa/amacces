@@ -7,5 +7,15 @@
 
 main {
   display: flex;
+  flex-direction: column;
   gap: 1rem;
+  outline-offset: -2px;
+}
+
+:host {
+  ::ng-deep .space-wrapper {
+    max-width: 90ch;
+    width: 100%;
+    margin: 0 auto;
+  }
 }

@@ -1,7 +1,7 @@
 body {
   font-family: "Inclusive Sans", sans-serif;
   color: var(--body-color);
-  background-color: color-mix(in srgb, var(--invert-body-color), oklch(from var(--black) l calc(c + 0.3) calc(h + 350)) 7%);
+  background-color: color-mix(in srgb, var(--invert-body-color), oklch(from var(--black) l calc(c + 0.3) calc(h + 350)) 3%);
 }
 
 h1,

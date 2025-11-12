@@ -1,7 +1,9 @@
 <header>
-    <a class="skip-link skip-to-main-content visually-hidden" href="#main">Skip to main content</a>
-    <span class="logo-text">
-        <span class="bold">A11y</span>
-        <span>Cat</span>
-    </span>
+    <div class="space-wrapper">
+        <a class="skip-link skip-to-main-content visually-hidden" [routerLink]="[]" fragment="main">Sari la conținut</a>
+        <a [routerLink]="['/']">
+            <ac-logo-svg class="logo"></ac-logo-svg>
+            <span class="visually-hidden">Acasă</span>
+        </a>
+    </div>
 </header>

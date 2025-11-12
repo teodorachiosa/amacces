@@ -1,4 +1,5 @@
-button {
+button,
+.button-look {
   --button__background-color: var(--accent-color);
   --darkness-multiplier: 1;
 
@@ -25,13 +26,13 @@ button {
   );
 
   --top-highlight-percentage: 50%;
-  --bottom-shadow-percentage: 30%;
+  --bottom-shadow-percentage: 15%;
   --elevation-1: 1px;
   --elevation-2: 2px;
   --elevation-3: 3px;
 
-  padding: 0.4rem 0.8rem;
-  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
   border: 2px solid
     color-mix(
       in srgb-linear,
@@ -69,10 +70,11 @@ button {
         var(--black) 70%
       );
   color: light-dark(var(--black), var(--white));
-  font-weight: 500;
-  letter-spacing: 0.5px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
   background-color: var(--button__default__background-color);
-  transition: var(--short-transition) ease-in-out;
+  /* transition: var(--short-transition) ease-in-out; */
 
   &.success {
     --button__background-color: var(--success-color);

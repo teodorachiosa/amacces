@@ -1,4 +1,4 @@
 a[href] {
-  transition: var(--short-transition) ease-in-out;
+  /* transition: var(--short-transition) ease-in-out; */
   text-underline-offset: 0.15rem;
 }
