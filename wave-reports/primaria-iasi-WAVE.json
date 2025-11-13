@@ -1,0 +1,22 @@
+{
+  "status": { "success": true, "httpstatuscode": 200 },
+  "statistics": {
+    "pagetitle": "Prima pagină",
+    "pageurl": "https://www.primaria-iasi.ro/",
+    "time": 9.36,
+    "creditsremaining": 994,
+    "AIMscore": 7.4,
+    "allitemcount": 778,
+    "totalelements": 2740,
+    "waveurl": "http://wave.webaim.org/report?url=https://www.primaria-iasi.ro/"
+  },
+  "categories": {
+    "error": { "description": "Errors", "count": 8 },
+    "contrast": { "description": "Contrast Errors", "count": 1 },
+    "alert": { "description": "Alerts", "count": 107 },
+    "feature": { "description": "Features", "count": 193 },
+    "structure": { "description": "Structural Elements", "count": 255 },
+    "aria": { "description": "ARIA", "count": 214 }
+  },
+  "timestamp": 1763066400035
+}

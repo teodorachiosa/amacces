@@ -1,0 +1,22 @@
+{
+  "status": { "success": true, "httpstatuscode": 301 },
+  "statistics": {
+    "pagetitle": "Casa Națională de Asigurări de Sănătate – Eficacitate și accesibilitate pentru sănătate",
+    "pageurl": "https://www.cnas.ro/",
+    "time": 9.74,
+    "creditsremaining": 991,
+    "AIMscore": 6.5,
+    "allitemcount": 790,
+    "totalelements": 2883,
+    "waveurl": "http://wave.webaim.org/report?url=https://www.cnas.ro/"
+  },
+  "categories": {
+    "error": { "description": "Errors", "count": 8 },
+    "contrast": { "description": "Contrast Errors", "count": 15 },
+    "alert": { "description": "Alerts", "count": 7 },
+    "feature": { "description": "Features", "count": 22 },
+    "structure": { "description": "Structural Elements", "count": 58 },
+    "aria": { "description": "ARIA", "count": 680 }
+  },
+  "timestamp": 1763067144244
+}

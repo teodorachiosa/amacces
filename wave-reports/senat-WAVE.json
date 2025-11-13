@@ -1,0 +1,22 @@
+{
+  "status": { "success": true, "httpstatuscode": 200 },
+  "statistics": {
+    "pagetitle": "Senatul României",
+    "pageurl": "https://www.senat.ro/",
+    "time": 7.09,
+    "creditsremaining": 992,
+    "AIMscore": 1.6,
+    "allitemcount": 2521,
+    "totalelements": 4076,
+    "waveurl": "http://wave.webaim.org/report?url=https://www.senat.ro/"
+  },
+  "categories": {
+    "error": { "description": "Errors", "count": 266 },
+    "contrast": { "description": "Contrast Errors", "count": 216 },
+    "alert": { "description": "Alerts", "count": 45 },
+    "feature": { "description": "Features", "count": 11 },
+    "structure": { "description": "Structural Elements", "count": 250 },
+    "aria": { "description": "ARIA", "count": 1733 }
+  },
+  "timestamp": 1763066803337
+}
