@@ -6,7 +6,9 @@ const sites = [
   // "https://www.politiaromana.ro/", /* ok */
   // "https://www.anaf.ro/", /* ok */
   // "https://www.mai.gov.ro/", /* ok */
-
+  // "https://www.edu.ro/", /* ok */
+  // "http://www.agerpres.ro", /* ok */
+  // "https://www.mapn.ro/", /* ok */
 
   // "https://cancelarie.gov.ro/", /* test */
   // "https://sgg.gov.ro/", /* test */
@@ -14,11 +16,9 @@ const sites = [
   // "https://mdlpa.ro/", /* test */
   // "http://www.mmediu.gov.ro/", /* test */
   // "https://www.mae.ro/", /* test */
-  // "https://www.mapn.ro/", /* test */
   // "https://mfinante.gov.ro/", /* test */
   // "https://www.just.ro/", /* test */
   // "https://madr.ro/", /* test */
-  // "https://edu.ro/", /* test */
   // "http://www.mmuncii.ro/", /* test */
   // "http://www.economie.gov.ro/", /* test */
   // "http://energie.gov.ro/", /* test */
@@ -33,7 +33,6 @@ const sites = [
   // "http://www.dprp.gov.ro/", /* test */
   // "http://www.drp.gov.ro/", /* test */
   // "http://www.rador.ro", /* test */
-  // "http://www.agerpres.ro", /* test */
   // "https://dnsc.ro/", /* test */
   // "https://www.asfromania.ro/", /* test */
   // "http://www.consiliulconcurentei.ro/", /* test */

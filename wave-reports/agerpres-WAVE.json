@@ -1,0 +1,22 @@
+{
+  "status": { "success": true, "httpstatuscode": 200 },
+  "statistics": {
+    "pagetitle": "Just a moment...",
+    "pageurl": "http://www.agerpres.ro",
+    "time": 8.35,
+    "creditsremaining": 986,
+    "AIMscore": 9.1,
+    "allitemcount": 6,
+    "totalelements": 45,
+    "waveurl": "http://wave.webaim.org/report?url=http://www.agerpres.ro"
+  },
+  "categories": {
+    "error": { "description": "Errors", "count": 1 },
+    "contrast": { "description": "Contrast Errors", "count": 0 },
+    "alert": { "description": "Alerts", "count": 1 },
+    "feature": { "description": "Features", "count": 1 },
+    "structure": { "description": "Structural Elements", "count": 3 },
+    "aria": { "description": "ARIA", "count": 0 }
+  },
+  "timestamp": 1763067675876
+}
