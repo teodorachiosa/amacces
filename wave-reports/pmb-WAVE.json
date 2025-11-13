@@ -1,0 +1,22 @@
+{
+  "status": { "success": true, "httpstatuscode": 200 },
+  "statistics": {
+    "pagetitle": "Primăria București",
+    "pageurl": "https://pmb.ro/",
+    "time": 8.06,
+    "creditsremaining": 975,
+    "AIMscore": 4.7,
+    "allitemcount": 356,
+    "totalelements": 1875,
+    "waveurl": "http://wave.webaim.org/report?url=https://pmb.ro/"
+  },
+  "categories": {
+    "error": { "description": "Errors", "count": 34 },
+    "contrast": { "description": "Contrast Errors", "count": 6 },
+    "alert": { "description": "Alerts", "count": 82 },
+    "feature": { "description": "Features", "count": 43 },
+    "structure": { "description": "Structural Elements", "count": 121 },
+    "aria": { "description": "ARIA", "count": 70 }
+  },
+  "timestamp": 1763070674076
+}

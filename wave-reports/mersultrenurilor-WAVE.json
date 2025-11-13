@@ -1,0 +1,22 @@
+{
+  "status": { "success": true, "httpstatuscode": 302 },
+  "statistics": {
+    "pagetitle": "Rute trenuri - Mersul trenurilor CFR",
+    "pageurl": "https://mersultrenurilor.infofer.ro/",
+    "time": 8.26,
+    "creditsremaining": 977,
+    "AIMscore": 3.9,
+    "allitemcount": 93,
+    "totalelements": 405,
+    "waveurl": "http://wave.webaim.org/report?url=https://mersultrenurilor.infofer.ro/"
+  },
+  "categories": {
+    "error": { "description": "Errors", "count": 11 },
+    "contrast": { "description": "Contrast Errors", "count": 22 },
+    "alert": { "description": "Alerts", "count": 16 },
+    "feature": { "description": "Features", "count": 10 },
+    "structure": { "description": "Structural Elements", "count": 13 },
+    "aria": { "description": "ARIA", "count": 21 }
+  },
+  "timestamp": 1763070575429
+}

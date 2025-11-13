@@ -1,5 +1,6 @@
 const sites = [
   // "https://www.primaria-iasi.ro/", /* ok */
+  // "https://pmb.ro/" /* ok */,
   // "https://www.adr.gov.ro/" /* ok */,
   // "https://www.senat.ro/", /* ok */
   // "https://www.cnas.ro/", /* ok */
@@ -14,6 +15,8 @@ const sites = [
   // "https://e-guvernare.ro/", /* ok */
   // "https://www.roeid.ro/", /* ok */
   // "https://www.cfr.ro/", /* ok */
+  // "https://mersultrenurilor.infofer.ro/", /* ok */
+  // "https://www.cfrcalatori.ro/" /* ok */
 
   // "https://www.anpc.ro/", /* test */
   // "http://www.mmediu.gov.ro/", /* test */
@@ -40,7 +43,6 @@ const sites = [
   // "https://sri.ro/", /* test */
   // "https://sie.ro/", /* test */
   // "https://sts.ro/", /* test */
-  // "https://pmb.ro/" /* test */
 
   // "https://www.mdlpa.ro/", /* geo-blocked */
   // "https://www.roaep.ro/prezentare/", /* captcha required */
