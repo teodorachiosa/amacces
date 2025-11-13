@@ -7,19 +7,16 @@ const sites = [
   // "https://www.anaf.ro/", /* ok */
   // "https://www.mai.gov.ro/", /* ok */
   // "https://www.edu.ro/", /* ok */
-  // "http://www.agerpres.ro", /* ok */
+  // "https://www.agerpres.ro", /* ok */
   // "https://www.mapn.ro/", /* ok */
+  // "https://www.just.ro/", /* ok */
 
-  // "https://cancelarie.gov.ro/", /* test */
-  // "https://sgg.gov.ro/", /* test */
-  // "http://www.clr.ro/", /* test */
+  
   // "https://mdlpa.ro/", /* test */
   // "http://www.mmediu.gov.ro/", /* test */
   // "https://www.mae.ro/", /* test */
   // "https://mfinante.gov.ro/", /* test */
-  // "https://www.just.ro/", /* test */
   // "https://madr.ro/", /* test */
-  // "http://www.mmuncii.ro/", /* test */
   // "http://www.economie.gov.ro/", /* test */
   // "http://energie.gov.ro/", /* test */
   // "http://www.mt.gov.ro", /* test */
@@ -43,6 +40,9 @@ const sites = [
   // "https://sts.ro/", /* test */
   // "https://pmb.ro/" /* test */
   
+  // "https://www.gov.ro/" /* geo-blocked */,
+  // "https://cancelarie.gov.ro/", /* geo-blocked */
+  // "http://www.mmuncii.ro/", /* geo-blocked */
   // "https://www.ccr.ro/", /* geo-blocked */
   // "https://www.cdep.ro/", /* geo-blocked */
   // "https://www.presidency.ro/" /* geo-blocked */,
