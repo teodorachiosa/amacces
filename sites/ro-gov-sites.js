@@ -17,14 +17,12 @@ const sites = [
   // "https://www.cfr.ro/", /* ok */
   // "https://mersultrenurilor.infofer.ro/", /* ok */
   // "https://www.cfrcalatori.ro/" /* ok */
+  // "https://depabd.mai.gov.ro/", /* ok */
 
-  // "https://www.anpc.ro/", /* test */
   // "http://www.mmediu.gov.ro/", /* test */
   // "https://www.mae.ro/", /* test */
   // "https://mfinante.gov.ro/", /* test */
-  // "https://madr.ro/", /* test */
   // "http://www.economie.gov.ro/", /* test */
-  // "http://energie.gov.ro/", /* test */
   // "http://www.mt.gov.ro", /* test */
   // "http://imm.gov.ro/", /* test */
   // "https://www.ms.ro/", /* test */
@@ -43,7 +41,10 @@ const sites = [
   // "https://sri.ro/", /* test */
   // "https://sie.ro/", /* test */
   // "https://sts.ro/", /* test */
+  // "https://anpc.ro/", /* test */
 
+  // "http://energie.gov.ro/" /* blocked */,
+  // "https://www.madr.ro/" /* blocked */,
   // "https://www.mdlpa.ro/", /* geo-blocked */
   // "https://www.roaep.ro/prezentare/", /* captcha required */
   // "https://www.gov.ro/" /* geo-blocked */,
