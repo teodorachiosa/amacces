@@ -10,9 +10,12 @@ const sites = [
   // "https://www.agerpres.ro", /* ok */
   // "https://www.mapn.ro/", /* ok */
   // "https://www.just.ro/", /* ok */
+  // "https://www.ghiseul.ro/", /* ok */
+  // "https://e-guvernare.ro/", /* ok */
+  // "https://www.roeid.ro/", /* ok */
+  // "https://www.cfr.ro/", /* ok */
 
-  
-  // "https://mdlpa.ro/", /* test */
+  // "https://www.anpc.ro/", /* test */
   // "http://www.mmediu.gov.ro/", /* test */
   // "https://www.mae.ro/", /* test */
   // "https://mfinante.gov.ro/", /* test */
@@ -33,13 +36,14 @@ const sites = [
   // "https://dnsc.ro/", /* test */
   // "https://www.asfromania.ro/", /* test */
   // "http://www.consiliulconcurentei.ro/", /* test */
-  // "https://www.roaep.ro/prezentare/", /* test */
   // "https://insse.ro/cms/", /* test */
   // "https://sri.ro/", /* test */
   // "https://sie.ro/", /* test */
   // "https://sts.ro/", /* test */
   // "https://pmb.ro/" /* test */
-  
+
+  // "https://www.mdlpa.ro/", /* geo-blocked */
+  // "https://www.roaep.ro/prezentare/", /* captcha required */
   // "https://www.gov.ro/" /* geo-blocked */,
   // "https://cancelarie.gov.ro/", /* geo-blocked */
   // "http://www.mmuncii.ro/", /* geo-blocked */

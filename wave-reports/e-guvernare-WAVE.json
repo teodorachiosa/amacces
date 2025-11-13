@@ -1,0 +1,22 @@
+{
+  "status": { "success": true, "httpstatuscode": 200 },
+  "statistics": {
+    "pagetitle": "e-guvernare",
+    "pageurl": "https://e-guvernare.ro/",
+    "time": 8.1,
+    "creditsremaining": 981,
+    "AIMscore": 9.9,
+    "allitemcount": 116,
+    "totalelements": 536,
+    "waveurl": "http://wave.webaim.org/report?url=https://e-guvernare.ro/"
+  },
+  "categories": {
+    "error": { "description": "Errors", "count": 1 },
+    "contrast": { "description": "Contrast Errors", "count": 0 },
+    "alert": { "description": "Alerts", "count": 3 },
+    "feature": { "description": "Features", "count": 3 },
+    "structure": { "description": "Structural Elements", "count": 10 },
+    "aria": { "description": "ARIA", "count": 99 }
+  },
+  "timestamp": 1763070146074
+}
