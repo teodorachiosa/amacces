@@ -42,4 +42,4 @@ testem.log
 Thumbs.db
 
 # Other
-response-example.json
+wave-response-examples/**
