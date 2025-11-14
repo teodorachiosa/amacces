@@ -17,7 +17,7 @@ Website dedicated to digital accessibility.
 
 ### Inspiration
 - [DigiAccessible](https://www.digitoegankelijk.nl/) - Dutch website dedicated to digital accessibility
-- [DigiAccessible Dashboard](https://dashboard.digitoegankelijk.nl/) - Dutch website dedicated to monitoring digital accessibility conformance and progress in public institutions
+- [DigiAccessible Dashboard](https://dashboard.digitoegankelijk.nl/) - Dutch website dedicated to monitoring digital accessibility in public institutions, in accordance with accessibility standards and laws
 - 
 ### Tools
 - [WebAIM WAVE](https://wave.webaim.org/)
