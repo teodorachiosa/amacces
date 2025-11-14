@@ -1,10 +1,10 @@
-const sites = [
-  "https://www.primaria-iasi.ro/", /* ok */
-  "https://pmb.ro/" /* ok */,
-  "https://www.adr.gov.ro/" /* ok */,
-  "https://www.senat.ro/", /* ok */
-  "https://www.cnas.ro/", /* ok */
-  // "https://www.politiaromana.ro/", /* ok */
+const roGovSites = [
+  // "https://www.primaria-iasi.ro/", /* ok */
+  // "https://pmb.ro/" /* ok */,
+  // "https://www.adr.gov.ro/" /* ok */,
+  // "https://www.senat.ro/", /* ok */
+  // "https://www.cnas.ro/", /* ok */
+  "https://www.politiaromana.ro/", /* ok */
   // "https://www.anaf.ro/", /* ok */
   // "https://www.mai.gov.ro/", /* ok */
   // "https://www.edu.ro/", /* ok */
@@ -50,4 +50,4 @@ const sites = [
   // "https://www.cdep.ro/", /* geo-blocked */
   // "https://www.presidency.ro/" /* geo-blocked */,
 ];
-module.exports = { sites };
+export default roGovSites;

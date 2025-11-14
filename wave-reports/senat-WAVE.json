@@ -3,20 +3,20 @@
   "statistics": {
     "pagetitle": "Senatul României",
     "pageurl": "https://www.senat.ro/",
-    "time": 7.09,
-    "creditsremaining": 992,
+    "time": 7.55,
+    "creditsremaining": 959,
     "AIMscore": 1.6,
-    "allitemcount": 2521,
-    "totalelements": 4076,
+    "allitemcount": 2528,
+    "totalelements": 4084,
     "waveurl": "http://wave.webaim.org/report?url=https://www.senat.ro/"
   },
   "categories": {
-    "error": { "description": "Errors", "count": 266 },
-    "contrast": { "description": "Contrast Errors", "count": 216 },
-    "alert": { "description": "Alerts", "count": 45 },
+    "error": { "description": "Errors", "count": 267 },
+    "contrast": { "description": "Contrast Errors", "count": 217 },
+    "alert": { "description": "Alerts", "count": 44 },
     "feature": { "description": "Features", "count": 11 },
     "structure": { "description": "Structural Elements", "count": 250 },
-    "aria": { "description": "ARIA", "count": 1733 }
+    "aria": { "description": "ARIA", "count": 1739 }
   },
-  "timestamp": 1763066803337
+  "timestamp": 1763130762400
 }

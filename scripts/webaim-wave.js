@@ -1,10 +1,10 @@
-const join = require("path").join;
-const fetch = require("node-fetch");
-const fs = require("fs");
-const dotenv = require("dotenv");
+import { join } from "path";
+import fetch from "node-fetch";
+import fs from "fs";
+import dotenv from "dotenv";
 
-const roGovSites = require("../sites/ro-gov-sites.js");
-const sites = roGovSites.sites;
+import roGovSites from "../sites/ro-gov-sites.js";
+const sites = roGovSites;
 
 let envPath = "../.env";
 const config = dotenv.config({ path: envPath, quiet: true });
@@ -17,6 +17,8 @@ const sleep = (delay) => {
 };
 
 for (const site of sites) {
+  console.log(`Analyzing ${site}...`);
+  
   const filenameIdentifier = site.replace(/.+\/\/|www.|\..+/g, "");
   const response = await fetch(
     "https://wave.webaim.org/api/request?key=" +
@@ -42,8 +44,7 @@ for (const site of sites) {
     }
   }
 
-  // Wait a minute in case this script is detected as malicious and blocked
-  console.log("Waiting 1 minute...");
+  console.log("Waiting 1 minute in case this script is detected as malicious and blocked...");
   await sleep(60000);
   console.log("Resuming...");
 }

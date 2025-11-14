@@ -3,8 +3,8 @@
   "statistics": {
     "pagetitle": "Casa Națională de Asigurări de Sănătate – Eficacitate și accesibilitate pentru sănătate",
     "pageurl": "https://www.cnas.ro/",
-    "time": 9.74,
-    "creditsremaining": 991,
+    "time": 9.64,
+    "creditsremaining": 958,
     "AIMscore": 6.5,
     "allitemcount": 790,
     "totalelements": 2883,
@@ -18,5 +18,5 @@
     "structure": { "description": "Structural Elements", "count": 58 },
     "aria": { "description": "ARIA", "count": 680 }
   },
-  "timestamp": 1763067144244
+  "timestamp": 1763130832496
 }

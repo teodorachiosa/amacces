@@ -3,8 +3,8 @@
   "statistics": {
     "pagetitle": "ADR – Autoritatea pentru Digitalizarea României",
     "pageurl": "https://www.adr.gov.ro/",
-    "time": 9.65,
-    "creditsremaining": 994,
+    "time": 9.04,
+    "creditsremaining": 960,
     "AIMscore": 5.6,
     "allitemcount": 290,
     "totalelements": 1128,
@@ -18,5 +18,5 @@
     "structure": { "description": "Structural Elements", "count": 102 },
     "aria": { "description": "ARIA", "count": 143 }
   },
-  "timestamp": 1763066400351
+  "timestamp": 1763130693905
 }
