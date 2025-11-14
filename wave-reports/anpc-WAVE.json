@@ -1,0 +1,22 @@
+{
+  "status": { "success": true, "httpstatuscode": 200 },
+  "statistics": {
+    "pagetitle": "ANPC – Autoritatea Națională pentru Protecția Consumatorilor",
+    "pageurl": "https://anpc.ro/",
+    "time": 8.44,
+    "creditsremaining": 971,
+    "AIMscore": 4,
+    "allitemcount": 1157,
+    "totalelements": 2891,
+    "waveurl": "http://wave.webaim.org/report?url=https://anpc.ro/"
+  },
+  "categories": {
+    "error": { "description": "Errors", "count": 8 },
+    "contrast": { "description": "Contrast Errors", "count": 42 },
+    "alert": { "description": "Alerts", "count": 203 },
+    "feature": { "description": "Features", "count": 28 },
+    "structure": { "description": "Structural Elements", "count": 122 },
+    "aria": { "description": "ARIA", "count": 754 }
+  },
+  "timestamp": 1763127693875
+}

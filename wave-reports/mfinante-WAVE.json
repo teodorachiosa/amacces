@@ -1,0 +1,22 @@
+{
+  "status": { "success": true, "httpstatuscode": 302 },
+  "statistics": {
+    "pagetitle": "Despre minister - Acasa - MF",
+    "pageurl": "https://mfinante.gov.ro/",
+    "time": 8.93,
+    "creditsremaining": 973,
+    "AIMscore": 6.8,
+    "allitemcount": 217,
+    "totalelements": 2185,
+    "waveurl": "http://wave.webaim.org/report?url=https://mfinante.gov.ro/"
+  },
+  "categories": {
+    "error": { "description": "Errors", "count": 4 },
+    "contrast": { "description": "Contrast Errors", "count": 15 },
+    "alert": { "description": "Alerts", "count": 31 },
+    "feature": { "description": "Features", "count": 13 },
+    "structure": { "description": "Structural Elements", "count": 104 },
+    "aria": { "description": "ARIA", "count": 50 }
+  },
+  "timestamp": 1763127532404
+}

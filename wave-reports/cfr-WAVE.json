@@ -3,8 +3,8 @@
   "statistics": {
     "pagetitle": "Compania Națională de Căi Ferate ”CFR” – SA",
     "pageurl": "https://www.cfr.ro/",
-    "time": 13.41,
-    "creditsremaining": 978,
+    "time": 10.84,
+    "creditsremaining": 967,
     "AIMscore": 7.4,
     "allitemcount": 740,
     "totalelements": 2530,
@@ -18,5 +18,5 @@
     "structure": { "description": "Structural Elements", "count": 96 },
     "aria": { "description": "ARIA", "count": 588 }
   },
-  "timestamp": 1763070443845
+  "timestamp": 1763128973495
 }

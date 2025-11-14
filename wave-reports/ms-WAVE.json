@@ -1,0 +1,22 @@
+{
+  "status": { "success": true, "httpstatuscode": 302 },
+  "statistics": {
+    "pagetitle": "Ministerul Sănătății - Ministerul Sănătății",
+    "pageurl": "https://www.ms.ro/",
+    "time": 13.99,
+    "creditsremaining": 966,
+    "AIMscore": 7.7,
+    "allitemcount": 229,
+    "totalelements": 590,
+    "waveurl": "http://wave.webaim.org/report?url=https://www.ms.ro/"
+  },
+  "categories": {
+    "error": { "description": "Errors", "count": 3 },
+    "contrast": { "description": "Contrast Errors", "count": 2 },
+    "alert": { "description": "Alerts", "count": 78 },
+    "feature": { "description": "Features", "count": 32 },
+    "structure": { "description": "Structural Elements", "count": 45 },
+    "aria": { "description": "ARIA", "count": 69 }
+  },
+  "timestamp": 1763129512222
+}

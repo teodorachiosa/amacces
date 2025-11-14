@@ -1,0 +1,22 @@
+{
+  "status": { "success": true, "httpstatuscode": 200 },
+  "statistics": {
+    "pagetitle": "Serviciul Român de Informații",
+    "pageurl": "https://sri.ro/",
+    "time": 6.13,
+    "creditsremaining": 970,
+    "AIMscore": 3,
+    "allitemcount": 103,
+    "totalelements": 286,
+    "waveurl": "http://wave.webaim.org/report?url=https://sri.ro/"
+  },
+  "categories": {
+    "error": { "description": "Errors", "count": 4 },
+    "contrast": { "description": "Contrast Errors", "count": 55 },
+    "alert": { "description": "Alerts", "count": 5 },
+    "feature": { "description": "Features", "count": 9 },
+    "structure": { "description": "Structural Elements", "count": 17 },
+    "aria": { "description": "ARIA", "count": 13 }
+  },
+  "timestamp": 1763127911899
+}
