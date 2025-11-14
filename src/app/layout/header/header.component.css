@@ -19,7 +19,7 @@
     display: inline-block;
     width: 8rem;
     margin-top: 0.6rem;
-    rotate: 5deg;
+    rotate: 3deg;
 
 
     ::ng-deep svg {
@@ -32,7 +32,7 @@
 
     &:hover,
     &:focus-visible {
-      rotate: 10deg;
+      rotate: 5deg;
     }
   }
 }
