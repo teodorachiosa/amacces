@@ -1,7 +1,7 @@
 # amacces.ro
 
 ## Română
-Site web dedicat accesibilității digitale.
+Site web dedicat accesibilității digitale. Conținutul va fi în limba română.
 
 ### Inspirație
 - [DigiAccessible](https://www.digitoegankelijk.nl/) - Site olandez dedicat accesibilității digitale
@@ -13,7 +13,7 @@ Site web dedicat accesibilității digitale.
 ---
 
 ## English
-Website dedicated to digital accessibility.
+Website dedicated to digital accessibility. The content will be in Romanian.
 
 ### Inspiration
 - [DigiAccessible](https://www.digitoegankelijk.nl/) - Dutch website dedicated to digital accessibility
