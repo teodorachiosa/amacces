@@ -10,8 +10,10 @@ Site web dedicat accesibilității digitale.
 ### Tooluri
 - [WebAIM WAVE](https://wave.webaim.org/)
 
+---
+
 ## English
-Web site dedicated to digital accessibility.
+Website dedicated to digital accessibility.
 
 ### Inspiration
 - [DigiAccessible](https://www.digitoegankelijk.nl/) - Dutch website dedicated to digital accessibility
