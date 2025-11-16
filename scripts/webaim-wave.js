@@ -10,7 +10,7 @@ let envPath = "../.env";
 const config = dotenv.config({ path: envPath, quiet: true });
 const apiKey = config.parsed.API_KEY;
 
-let output = "../wave-reports";
+let output = "../wave/reports";
 
 const sleep = (delay) => {
   return new Promise((resolve) => setTimeout(resolve, delay));

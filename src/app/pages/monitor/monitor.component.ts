@@ -1,8 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { MarkdownComponent } from 'ngx-markdown';
+import fs from 'fs';
 
 @Component({
   selector: 'ac-monitor',
-  imports: [],
+  imports: [MarkdownComponent],
   templateUrl: './monitor.component.html',
   styleUrl: './monitor.component.css',
 })
