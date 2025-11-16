@@ -6,7 +6,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "wave": "cd scripts && node webaim-wave.js",
+    "wave": "cd scripts && node wave.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:amacces": "node dist/amacces/server/server.mjs"

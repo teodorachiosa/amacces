@@ -4,7 +4,7 @@ const roGovSites = [
   // "https://www.adr.gov.ro/" /* ok */,
   // "https://www.senat.ro/", /* ok */
   // "https://www.cnas.ro/", /* ok */
-  "https://www.politiaromana.ro/", /* ok */
+  // "https://www.politiaromana.ro/", /* ok */
   // "https://www.anaf.ro/", /* ok */
   // "https://www.mai.gov.ro/", /* ok */
   // "https://www.edu.ro/", /* ok */
@@ -16,7 +16,7 @@ const roGovSites = [
   // "https://www.roeid.ro/", /* ok */
   // "https://www.cfr.ro/", /* ok */
   // "https://mersultrenurilor.infofer.ro/", /* ok */
-  // "https://www.cfrcalatori.ro/" /* ok */
+  // "https://www.cfrcalatori.ro/", /* ok */
   // "https://depabd.mai.gov.ro/", /* ok */
   // "https://mfinante.gov.ro/", /* ok */
   // "https://www.research.gov.ro/", /* ok */
@@ -26,6 +26,8 @@ const roGovSites = [
   // "https://www.asfromania.ro/", /* ok */
   // "http://www.rador.ro", /* ok */
   // "https://www.ms.ro/", /* ok */
+
+  // 'https://serviciipublice.gov.ro/' /* test */
 
   // "https://mfe.gov.ro/" /* blocked */,
   // "https://mfamilie.gov.ro/" /* blocked */,

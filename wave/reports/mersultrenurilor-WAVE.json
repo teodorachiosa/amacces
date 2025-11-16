@@ -3,8 +3,8 @@
   "statistics": {
     "pagetitle": "Rute trenuri - Mersul trenurilor CFR",
     "pageurl": "https://mersultrenurilor.infofer.ro/",
-    "time": 8.26,
-    "creditsremaining": 977,
+    "time": 7.33,
+    "creditsremaining": 945,
     "AIMscore": 3.9,
     "allitemcount": 93,
     "totalelements": 405,
@@ -18,5 +18,5 @@
     "structure": { "description": "Structural Elements", "count": 13 },
     "aria": { "description": "ARIA", "count": 21 }
   },
-  "timestamp": 1763070575429
+  "timestamp": 1763333961272
 }

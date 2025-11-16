@@ -3,8 +3,8 @@
   "statistics": {
     "pagetitle": "Ghiseul.ro - Sistemul National Electronic de Plata Online",
     "pageurl": "https://www.ghiseul.ro/",
-    "time": 7.45,
-    "creditsremaining": 982,
+    "time": 8.64,
+    "creditsremaining": 953,
     "AIMscore": 3.4,
     "allitemcount": 113,
     "totalelements": 261,
@@ -18,5 +18,5 @@
     "structure": { "description": "Structural Elements", "count": 24 },
     "aria": { "description": "ARIA", "count": 25 }
   },
-  "timestamp": 1763069792337
+  "timestamp": 1763332962144
 }

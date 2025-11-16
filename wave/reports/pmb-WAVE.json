@@ -3,8 +3,8 @@
   "statistics": {
     "pagetitle": "Primăria București",
     "pageurl": "https://pmb.ro/",
-    "time": 8.55,
-    "creditsremaining": 961,
+    "time": 8.87,
+    "creditsremaining": 949,
     "AIMscore": 4.7,
     "allitemcount": 356,
     "totalelements": 1875,
@@ -18,5 +18,5 @@
     "structure": { "description": "Structural Elements", "count": 121 },
     "aria": { "description": "ARIA", "count": 70 }
   },
-  "timestamp": 1763130624410
+  "timestamp": 1763333435056
 }

@@ -3,20 +3,20 @@
   "statistics": {
     "pagetitle": "Ministerul Justiției",
     "pageurl": "https://www.just.ro/",
-    "time": 14.67,
-    "creditsremaining": 984,
+    "time": 17.58,
+    "creditsremaining": 954,
     "AIMscore": 3.4,
-    "allitemcount": 1528,
-    "totalelements": 5063,
+    "allitemcount": 1548,
+    "totalelements": 5125,
     "waveurl": "http://wave.webaim.org/report?url=https://www.just.ro/"
   },
   "categories": {
     "error": { "description": "Errors", "count": 5 },
-    "contrast": { "description": "Contrast Errors", "count": 110 },
-    "alert": { "description": "Alerts", "count": 187 },
-    "feature": { "description": "Features", "count": 168 },
-    "structure": { "description": "Structural Elements", "count": 133 },
-    "aria": { "description": "ARIA", "count": 925 }
+    "contrast": { "description": "Contrast Errors", "count": 112 },
+    "alert": { "description": "Alerts", "count": 189 },
+    "feature": { "description": "Features", "count": 170 },
+    "structure": { "description": "Structural Elements", "count": 135 },
+    "aria": { "description": "ARIA", "count": 937 }
   },
-  "timestamp": 1763068113623
+  "timestamp": 1763332893046
 }
