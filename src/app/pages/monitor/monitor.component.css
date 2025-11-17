@@ -57,7 +57,13 @@
       }
 
       .bottom {
+        display: flex;
+        justify-content: flex-end;
+
         .text-effect {
+          padding: 0;
+          border-radius: 30px;
+
           .score {
             display: inline-flex;
             align-items: center;
