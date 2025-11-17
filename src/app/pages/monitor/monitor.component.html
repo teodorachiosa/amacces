@@ -3,7 +3,7 @@
 
 <ul>
     @for (waveReport of waveReports; track waveReport.statistics.pageurl) {
-    <li [style]="`--backgroundImage: url(${waveReport.statistics.pageurl}/favicon.ico)`">
+    <li [style]="`--backgroundImage: url(https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${waveReport.statistics.pageurl}&size=64)`">
         <div class="top">
             <span class="text-effect">
                 <span class="title">{{ waveReport.statistics.pagetitle }}</span>
