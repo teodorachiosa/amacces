@@ -1,8 +1,8 @@
-# Proiectul "Am acces?"
 <p align="center">
-  <img width="292" height="122" alt="logo git" src="https://github.com/user-attachments/assets/111595f6-cac5-4f6b-8473-4513b2eee440" />
+ <img width="182" height="72" alt="" src="https://github.com/user-attachments/assets/572be5be-1ed8-4c38-aaec-6e1b855a3366" />
 </p>
 
+# amacces.ro
 
 ## Română
 Site web dedicat accesibilității digitale. Conținutul va fi în limba română.
