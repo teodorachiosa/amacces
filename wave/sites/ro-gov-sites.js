@@ -8,7 +8,6 @@ const roGovSites = [
   "https://www.anaf.ro/" /* ok */,
   "https://www.mai.gov.ro/" /* ok */,
   "https://www.edu.ro/" /* ok */,
-  "https://www.agerpres.ro/" /* ok */,
   "https://www.mapn.ro/" /* ok */,
   "https://www.just.ro/" /* ok */,
   "https://www.ghiseul.ro/" /* ok */,
@@ -49,5 +48,6 @@ const roGovSites = [
   // "https://www.ccr.ro/", /* geo-blocked */
   // "https://www.cdep.ro/", /* geo-blocked */
   // "https://www.presidency.ro/" /* geo-blocked */,
+  // "https://www.agerpres.ro/" /* cloudflare */,
 ];
 export default roGovSites;
