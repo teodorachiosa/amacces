@@ -1,9 +1,11 @@
-<!-- <markdown ngPreserveWhitespaces>
-</markdown> -->
-
+<markdown ngPreserveWhitespaces>
+    Aceste site-uri au fost analizate cu ajutorul serviciului de testare automată [WebAIM
+    WAVE](https://wave.webaim.org/api/details|blank). **Notă:** Testarea automată are limitări și **nu** poate detecta 100% din probleme. Pentru mai multe detalii, accesați unul din site-urile ce urmează:
+</markdown>
 <ul>
     @for (waveReport of waveReports; track waveReport.statistics.pageurl) {
-    <li [style]="`--backgroundImage: url(https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${waveReport.statistics.pageurl}&size=64)`">
+    <li
+        [style]="`--backgroundImage: url(https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${waveReport.statistics.pageurl}&size=64)`">
         <div class="top">
             <span class="text-effect">
                 <span class="title">{{ waveReport.statistics.pagetitle }}</span>
@@ -18,7 +20,7 @@
                 <span class="score">
                     <span class="dot"></span>
                     {{waveReport.statistics.AIMscore}}/<span class="less-emphasis">10 + </span>
-                    <span class="no-of-problems">?</span> 
+                    <span class="no-of-problems">?</span>
                     <span class="less-emphasis">probleme</span>
                 </span>
             </span>

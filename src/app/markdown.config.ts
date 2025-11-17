@@ -15,7 +15,7 @@ export function markedOptionsFactory(): MarkedOptions {
     return href.includes('|blank')
       ? `<a target="_blank" href="${
           href.split('|')[0]
-        }">${text} <span class="visually-hidden">(deschide filă nouă)</span></a>`
+        }">${text}<span class="visually-hidden"> (deschide filă nouă)</span></a>`
       : `<a href="${href.split('|')[0]}">${text}</a>`;
   };
 
