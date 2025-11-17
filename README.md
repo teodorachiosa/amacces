@@ -1,4 +1,4 @@
-# amacces.ro
+# Proiectul "Am acces?"
 <img width="310" height="174" alt="" src="https://github.com/user-attachments/assets/d8b78f1e-4b4d-41f3-8b0b-98e84dd932be" />
 
 
