@@ -22,7 +22,7 @@
 
     li {
       --transparentBg: light-dark(
-        color-mix(in srgb, var(--invert-body-color), var(--accent-color) 3%),
+        color-mix(in srgb, var(--invert-body-color), var(--accent-color) 10%),
         color-mix(in srgb, var(--invert-body-color), var(--accent-color) 15%)
       );
       position: relative;
@@ -120,11 +120,14 @@
         opacity: 0.7;
         z-index: -1;
         scale: 1.8;
-        filter: blur(15px);
+        filter: blur(15px) contrast(140%) saturate(180%);
       }
 
       &:hover {
-        filter: brightness(93%) contrast(110%);
+        --transparentBg: light-dark(
+          color-mix(in srgb, var(--invert-body-color), var(--accent-color) 0%),
+          color-mix(in srgb, var(--invert-body-color), var(--accent-color) 5%)
+        );
       }
     }
   }
