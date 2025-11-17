@@ -1,6 +1,8 @@
 <markdown ngPreserveWhitespaces>
-    Aceste site-uri au fost analizate cu ajutorul serviciului de testare automată [WebAIM WAVE](https://wave.webaim.org/api/details|blank) și au primit un scor de la 0 la 10. În urma testării manuale se pot găsi probleme suplimentare iar acestea vor fi numărate imediat după scor.
-    
+    Aceste site-uri au fost analizate cu ajutorul serviciului de testare automată [WebAIM
+    WAVE](https://wave.webaim.org/api/details|blank) și au primit un scor de la 0 la 10. În urma testării manuale se pot
+    găsi probleme suplimentare iar acestea vor fi numărate imediat după scor.
+
     **Notă:** Testarea automată are limitări și **nu** poate detecta 100% din probleme.
     Pentru mai multe detalii, accesați unul din site-urile ce urmează: _Pagină în construcție!_
 </markdown>
@@ -10,7 +12,8 @@
         [style]="`--backgroundImage: url(https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${waveReport.statistics.pageurl}&size=64)`">
         <div class="top">
             <span class="text-effect">
-                <span class="title">{{ waveReport.statistics.pagetitle }}</span>
+                <span class="title"><a [routerLink]="['/page-under-construction']">{{ waveReport.statistics.pagetitle
+                        }}</a></span>
                 <hr>
                 <span class="less-emphasis">{{stripUrl(waveReport.statistics.pageurl)}}</span>
             </span>

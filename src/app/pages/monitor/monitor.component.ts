@@ -2,10 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { MarkdownComponent } from 'ngx-markdown';
 import waveAllInOne from '../../../../wave/wave-all-in-one.json';
 import { WaveReportItem } from '../../shared/types/wave-report-item';
+import { RouterLink } from "@angular/router";
 
 @Component({
   selector: 'ac-monitor',
-  imports: [MarkdownComponent],
+  imports: [MarkdownComponent, RouterLink],
   templateUrl: './monitor.component.html',
   styleUrl: './monitor.component.css',
 })
