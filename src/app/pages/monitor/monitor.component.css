@@ -21,10 +21,9 @@
     }
 
     li {
-      --transparentBg: color-mix(
-        in srgb,
-        var(--invert-body-color),
-        oklch(from var(--black) l calc(c + 0.3) calc(h + 350)) 5%
+      --transparentBg: light-dark(
+        color-mix(in srgb, var(--invert-body-color), var(--accent-color) 3%),
+        color-mix(in srgb, var(--invert-body-color), var(--accent-color) 15%)
       );
       display: flex;
       justify-content: space-between;
@@ -36,7 +35,11 @@
       border: 2px solid color-mix(in hsl, var(--body-color), transparent 70%);
       border-radius: 10px;
       min-height: 300px;
-      background: color-mix(in hsl, var(--accent-color), transparent 50%);
+      background: color-mix(
+        in srgb,
+        color-mix(in srgb, var(--accent-color), transparent 40%),
+        var(--invert-body-color) 50%
+      );
       padding: 18px 23px;
       overflow: hidden;
 
