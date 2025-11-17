@@ -19,7 +19,6 @@
     display: inline-block;
     width: 8rem;
     margin-top: 0.6rem;
-    rotate: 8deg;
 
     ::ng-deep svg {
       width: 100%;
