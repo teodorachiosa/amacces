@@ -6,7 +6,9 @@
   --black: oklch(from var(--white) calc(l - 1) c h);
   --accent-color: oklch(0.7 0.2 307);
   --danger-color: oklch(from var(--accent-color) l c calc(h * 0 + -10));
-  --success-color: oklch(from var(--accent-color) l calc(c - 0.06) calc(h * 0 + 165));
+  --success-color: oklch(
+    from var(--accent-color) l calc(c - 0.06) calc(h * 0 + 165)
+  );
 
   --body-color: light-dark(
     oklch(from var(--white) calc(l - 1) c h),
@@ -19,4 +21,8 @@
 
   /* Animations */
   --short-transition: 0.15s;
+
+  /* Fonts */
+  --body-font: "Inclusive Sans", sans-serif;
+  --title-font: "Sono", sans-serif;
 }

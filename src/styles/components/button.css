@@ -70,11 +70,11 @@ button,
         var(--black) 70%
       );
   color: light-dark(var(--black), var(--white));
-  font-weight: 600;
   font-size: 1.1rem;
   letter-spacing: 0.1rem;
   background-color: var(--button__default__background-color);
-  /* transition: var(--short-transition) ease-in-out; */
+  font-family: var(--title-font);
+  font-weight: 500;
 
   &.success {
     --button__background-color: var(--success-color);

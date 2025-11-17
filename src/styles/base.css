@@ -1,7 +1,11 @@
 body {
-  font-family: "Inclusive Sans", sans-serif;
+  font-family: var(--body-font);
   color: var(--body-color);
-  background-color: color-mix(in srgb, var(--invert-body-color), oklch(from var(--black) l calc(c + 0.3) calc(h + 350)) 3%);
+  background-color: color-mix(
+    in srgb,
+    var(--invert-body-color),
+    oklch(from var(--black) l calc(c + 0.3) calc(h + 350)) 3%
+  );
 }
 
 h1,
@@ -10,6 +14,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Literata", serif;
-  font-style: italic;
+  font-family: var(--title-font);
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 48px;
 }

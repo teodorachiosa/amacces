@@ -11,15 +11,10 @@
   font-style: italic;
 }
 
-/* Literata */
+/* Sono */
 @font-face {
-  font-family: "Literata";
-  src: url("^./../../../public/assets/fonts/Literata/Literata-VariableFont_opsz,wght.ttf");
+  font-family: "Sono";
+  src: url("^./../../../public/assets/fonts/Sono/Sono-VariableFont_MONO\,wght.ttf");
   font-style: normal;
-}
-
-@font-face {
-  font-family: "Literata";
-  src: url("^./../../../public/assets/fonts/Literata/Literata-Italic-VariableFont_opsz,wght.ttf");
-  font-style: italic;
+  font-variation-settings: "MONO" 0.8;
 }

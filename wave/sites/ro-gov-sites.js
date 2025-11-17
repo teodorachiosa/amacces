@@ -1,34 +1,32 @@
 const roGovSites = [
-  // "https://www.primaria-iasi.ro/", /* ok */
-  // "https://pmb.ro/" /* ok */,
-  // "https://www.adr.gov.ro/" /* ok */,
-  // "https://www.senat.ro/", /* ok */
-  // "https://www.cnas.ro/", /* ok */
-  // "https://www.politiaromana.ro/", /* ok */
-  // "https://www.anaf.ro/", /* ok */
-  // "https://www.mai.gov.ro/", /* ok */
-  // "https://www.edu.ro/", /* ok */
-  // "https://www.agerpres.ro", /* ok */
-  // "https://www.mapn.ro/", /* ok */
-  // "https://www.just.ro/", /* ok */
-  // "https://www.ghiseul.ro/", /* ok */
-  // "https://e-guvernare.ro/", /* ok */
-  // "https://www.roeid.ro/", /* ok */
-  // "https://www.cfr.ro/", /* ok */
-  // "https://mersultrenurilor.infofer.ro/", /* ok */
-  // "https://www.cfrcalatori.ro/", /* ok */
-  // "https://depabd.mai.gov.ro/", /* ok */
-  // "https://mfinante.gov.ro/", /* ok */
-  // "https://www.research.gov.ro/", /* ok */
-  // "https://anpc.ro/", /* ok */
-  // "https://sri.ro/", /* ok */
-  // "https://sie.ro/", /* ok */
-  // "https://www.asfromania.ro/", /* ok */
-  // "http://www.rador.ro", /* ok */
-  // "https://www.ms.ro/", /* ok */
-
-  // 'https://serviciipublice.gov.ro/' /* test */
-
+  "https://www.primaria-iasi.ro/" /* ok */,
+  "https://pmb.ro/" /* ok */,
+  "https://www.adr.gov.ro/" /* ok */,
+  "https://www.senat.ro/" /* ok */,
+  "https://www.cnas.ro/" /* ok */,
+  "https://www.politiaromana.ro/" /* ok */,
+  "https://www.anaf.ro/" /* ok */,
+  "https://www.mai.gov.ro/" /* ok */,
+  "https://www.edu.ro/" /* ok */,
+  "https://www.agerpres.ro/" /* ok */,
+  "https://www.mapn.ro/" /* ok */,
+  "https://www.just.ro/" /* ok */,
+  "https://www.ghiseul.ro/" /* ok */,
+  "https://e-guvernare.ro/" /* ok */,
+  "https://www.roeid.ro/" /* ok */,
+  "https://www.cfr.ro/" /* ok */,
+  "https://mersultrenurilor.infofer.ro/" /* ok */,
+  "https://www.cfrcalatori.ro/" /* ok */,
+  "https://depabd.mai.gov.ro/" /* ok */,
+  "https://mfinante.gov.ro/" /* ok */,
+  "https://www.research.gov.ro/" /* ok */,
+  "https://anpc.ro/" /* ok */,
+  "https://sri.ro/" /* ok */,
+  "https://sie.ro/" /* ok */,
+  "https://www.asfromania.ro/" /* ok */,
+  "http://www.rador.ro/" /* ok */,
+  "https://www.ms.ro/" /* ok */,
+  // 'https://serviciipublice.gov.ro/' /* blocked */
   // "https://mfe.gov.ro/" /* blocked */,
   // "https://mfamilie.gov.ro/" /* blocked */,
   // "http://www.consiliulconcurentei.ro/", /* blocked */

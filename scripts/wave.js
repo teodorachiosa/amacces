@@ -38,8 +38,9 @@ for (const site of sites) {
       data.timestamp = timestamp;
     }
     data = JSON.stringify(data);
-
-    allData.push(data);
+    if (isSuccessfulAnalysis) {
+      allData.push(data);
+    }
 
     const filename = join(output, `${filenameIdentifier}-WAVE.json`);
     if (isSuccessfulAnalysis) {

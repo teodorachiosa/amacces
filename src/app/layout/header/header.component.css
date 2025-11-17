@@ -19,8 +19,7 @@
     display: inline-block;
     width: 8rem;
     margin-top: 0.6rem;
-    rotate: 3deg;
-
+    rotate: 8deg;
 
     ::ng-deep svg {
       width: 100%;
@@ -28,11 +27,6 @@
 
     ::ng-deep path {
       fill: var(--body-color);
-    }
-
-    &:hover,
-    &:focus-visible {
-      rotate: 5deg;
     }
   }
 }
