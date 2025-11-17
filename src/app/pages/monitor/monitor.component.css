@@ -13,7 +13,7 @@
     }
 
     .less-emphasis {
-      font-size: 0.8rem;
+      font-size: 0.85rem;
       font-weight: 400;
     }
 
@@ -100,7 +100,7 @@
         background-repeat: no-repeat;
         background-position: center;
         border-radius: 8px;
-        opacity: 0.6;
+        opacity: 0.65;
         z-index: -1;
         scale: 1.8;
         filter: blur(15px) contrast(2.5);

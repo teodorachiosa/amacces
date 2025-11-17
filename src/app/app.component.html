@@ -1,7 +1,11 @@
 <ac-header></ac-header>
 <main id="main" tabindex="-1">
     <div class="space-wrapper">
-        <h1 class="page-title" tabindex="-1">{{headingTitle}}</h1>
+        <h1 class="page-title" tabindex="-1">
+            @if(routeEmoji) {
+            <span class="optional-emoji" aria-hidden="true">{{routeEmoji}}</span>
+            }{{headingTitle}}
+        </h1>
         <router-outlet></router-outlet>
     </div>
 </main>

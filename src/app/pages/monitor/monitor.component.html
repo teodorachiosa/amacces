@@ -1,6 +1,8 @@
 <markdown ngPreserveWhitespaces>
-    Aceste site-uri au fost analizate cu ajutorul serviciului de testare automată [WebAIM
-    WAVE](https://wave.webaim.org/api/details|blank). **Notă:** Testarea automată are limitări și **nu** poate detecta 100% din probleme. Pentru mai multe detalii, accesați unul din site-urile ce urmează:
+    Aceste site-uri au fost analizate cu ajutorul serviciului de testare automată [WebAIM WAVE](https://wave.webaim.org/api/details|blank) și au primit un scor de la 0 la 10. În urma testării manuale se pot găsi probleme suplimentare iar acestea vor fi numărate imediat după scor.
+    
+    **Notă:** Testarea automată are limitări și **nu** poate detecta 100% din probleme.
+    Pentru mai multe detalii, accesați unul din site-urile ce urmează: _Pagină în construcție!_
 </markdown>
 <ul>
     @for (waveReport of waveReports; track waveReport.statistics.pageurl) {
@@ -19,7 +21,7 @@
                 <hr>
                 <span class="score">
                     <span class="dot"></span>
-                    {{waveReport.statistics.AIMscore}}/<span class="less-emphasis">10 + </span>
+                    {{waveReport.statistics.AIMscore}}/<span class="less-emphasis">10 ➕ </span>
                     <span class="no-of-problems">?</span>
                     <span class="less-emphasis">probleme</span>
                 </span>

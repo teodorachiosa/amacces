@@ -7,6 +7,7 @@ import {
 } from '@angular/router';
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
+import { CustomRoute, routes } from './app.routes';
 
 @Component({
   selector: 'ac-root',
@@ -18,6 +19,7 @@ export class AppComponent implements OnInit {
   mainHeadingElement: HTMLHeadingElement | null = null;
   mainElement: HTMLElement | null = null;
   headingTitle = '';
+  routeEmoji? = '';
 
   constructor(
     private readonly router: Router,
@@ -37,18 +39,20 @@ export class AppComponent implements OnInit {
     this.router.events.subscribe((event) => {
       this.headingTitle = this.document.title.split('|')[0];
 
-      if (
-        event instanceof NavigationEnd &&
-        this.activatedRoute.snapshot.fragment === null &&
-        event.id !== 1
-      ) {
-        this.mainHeadingElement = this.document.querySelector('h1');
-        this.mainElement = this.document.getElementById('#main');
+      if (event instanceof NavigationEnd) {
+        this.routeEmoji = routes.find(
+          (route) => route.path === event.url.replace('/', '')
+        )?.emoji;
 
-        if (this.mainHeadingElement) {
-          this.mainHeadingElement.focus();
-        } else {
-          this.mainElement?.focus();
+        if (this.activatedRoute.snapshot.fragment === null && event.id !== 1) {
+          this.mainHeadingElement = this.document.querySelector('h1');
+          this.mainElement = this.document.getElementById('#main');
+
+          if (this.mainHeadingElement) {
+            this.mainHeadingElement.focus();
+          } else {
+            this.mainElement?.focus();
+          }
         }
       }
     });

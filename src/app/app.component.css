@@ -12,6 +12,12 @@ main {
   outline-offset: -2px;
 }
 
+.page-title {
+  .optional-emoji {
+    margin-right: 0.5rem;
+  }
+}
+
 :host {
   ::ng-deep .space-wrapper {
     max-width: 120ch;

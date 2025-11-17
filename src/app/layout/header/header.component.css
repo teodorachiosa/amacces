@@ -18,7 +18,7 @@
   .logo {
     display: inline-block;
     width: 8rem;
-    margin-top: 0.6rem;
+    margin-top: 1rem;
 
     ::ng-deep svg {
       width: 100%;

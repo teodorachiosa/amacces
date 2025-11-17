@@ -1,5 +1,5 @@
 button,
-.button-look {
+.blink {
   --button__background-color: var(--accent-color);
   --darkness-multiplier: 1;
 
@@ -75,6 +75,11 @@ button,
   background-color: var(--button__default__background-color);
   font-family: var(--title-font);
   font-weight: 500;
+
+  /* Button/Link (Blink) scenario: */
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
 
   &.success {
     --button__background-color: var(--success-color);
