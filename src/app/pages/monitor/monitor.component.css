@@ -73,10 +73,10 @@
           }
 
           &.bad .dot {
-            background-color: rgb(164, 0, 66);
+            background-color: rgb(194, 0, 78);
           }
           &.neutral .dot {
-            background-color: rgb(195, 104, 0);
+            background-color: rgb(212, 113, 0);
           }
           &.good .dot {
             background-color: rgb(0, 179, 51);
