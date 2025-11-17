@@ -20,7 +20,9 @@
                 [class]="{'good': waveReport.statistics.AIMscore > 7, 'neutral': waveReport.statistics.AIMscore <= 7 && waveReport.statistics.AIMscore >= 4, 'bad': waveReport.statistics.AIMscore < 4}">
                 <hr>
                 <span class="score">
-                    <span class="dot"></span>
+                    <span class="dot">
+                        <span class="dot glow"></span>
+                    </span>
                     {{waveReport.statistics.AIMscore}}/<span class="less-emphasis">10 ➕ </span>
                     <span class="no-of-problems">?</span>
                     <span class="less-emphasis">probleme</span>

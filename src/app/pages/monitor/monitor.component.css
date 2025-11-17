@@ -65,11 +65,18 @@
           }
 
           .dot {
+            position: relative;
             display: block;
-            width: 10px;
-            height: 10px;
+            width: 8px;
+            height: 8px;
             border-radius: 50%;
             margin-right: 0.5rem;
+
+            &.glow {
+              position: absolute;
+              filter: blur(4px) contrast(3) brightness(1.5);
+              opacity: 0.5;
+            }
           }
 
           .no-of-problems {
