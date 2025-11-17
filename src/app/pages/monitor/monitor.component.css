@@ -34,7 +34,7 @@
       width: 100%;
       border: 2px solid color-mix(in hsl, var(--body-color), transparent 70%);
       border-radius: 10px;
-      min-height: 300px;
+      min-height: 220px;
       background: color-mix(
         in srgb,
         color-mix(in srgb, var(--accent-color), transparent 40%),
