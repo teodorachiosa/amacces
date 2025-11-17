@@ -102,7 +102,7 @@
         opacity: 0.6;
         z-index: -1;
         scale: 1.8;
-        filter: blur(15px) contrast(2);
+        filter: blur(15px) contrast(2.5);
       }
     }
   }
