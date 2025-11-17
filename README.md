@@ -1,6 +1,6 @@
 # Proiectul "Am acces?"
 <p align="center">
- <img width="296" height="117" alt="" src="https://github.com/user-attachments/assets/572be5be-1ed8-4c38-aaec-6e1b855a3366" />
+ <img width="182" height="72" alt="" src="https://github.com/user-attachments/assets/572be5be-1ed8-4c38-aaec-6e1b855a3366" />
 </p>
 
 
