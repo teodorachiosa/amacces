@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { MarkdownComponent } from 'ngx-markdown';
-import waveAllInOne from '../../../../wave/wave-all-in-one.json';
+import waveAllInOne from '@wave/wave-all-in-one.json';
 import { WaveReportItem } from '../../shared/types/wave-report-item';
 import { RouterLink } from "@angular/router";
 
