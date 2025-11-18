@@ -20,10 +20,6 @@ for (const { url, isBlocked } of sites) {
   if (!isBlocked) {
     console.log(`Analyzing ${url}...`);
 
-    const folderNameIdentifier = url
-      .replace("http://", "")
-      .replace("https://", "")
-      .replace("/", "");
     const response = await fetch(
       "https://wave.webaim.org/api/request?key=" +
         apiKey +
