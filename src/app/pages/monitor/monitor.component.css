@@ -16,23 +16,15 @@
       font-weight: 400;
     }
 
-    .title {
-      font-size: 1.2rem;
-
-      .favicon {
-        vertical-align: baseline;
-        margin-right: 0.7rem;
-        margin-left: 0.1rem;
-        border-radius: 2px;
-        width: 16px;
-        height: 16px;
-      }
-    }
-
     li {
-      --transparentBg: light-dark(
+      --titleBackground: light-dark(
         color-mix(in srgb, var(--invert-body-color), var(--accent-color) 10%),
         color-mix(in srgb, var(--invert-body-color), var(--accent-color) 15%)
+      );
+      --listItemBackgroundTint: color-mix(
+        in srgb,
+        color-mix(in srgb, var(--accent-color), transparent 40%),
+        var(--invert-body-color) 50%
       );
       position: relative;
       display: flex;
@@ -41,28 +33,46 @@
       gap: 2rem;
       font-family: var(--title-font);
       width: 100%;
-      border: 2px solid color-mix(in hsl, var(--body-color), transparent 70%);
+      border: 2px solid color-mix(in hsl, var(--body-color), transparent 65%);
       border-radius: 10px;
       min-height: 220px;
-      background: color-mix(
-        in srgb,
-        color-mix(in srgb, var(--accent-color), transparent 40%),
-        var(--invert-body-color) 50%
-      );
+      background: var(--listItemBackgroundTint);
       padding: 18px 23px;
       overflow: hidden;
 
       .text-effect {
         display: inline;
+        vertical-align: middle;
         padding: 10px;
         padding-left: 0;
         padding-right: 0;
-        background: var(--transparentBg);
+        background: var(--titleBackground);
         font-weight: 500;
-        box-shadow: 10px 0 0 var(--transparentBg),
-          -10px 0 0 var(--transparentBg);
+        box-shadow: 10px 0 0 var(--titleBackground),
+          -10px 0 0 var(--titleBackground);
         box-decoration-break: clone;
         word-break: break-word;
+      }
+
+      .top {
+        .text-effect {
+          * {
+            vertical-align: middle;
+          }
+        }
+
+        .title {
+          font-size: 1.2rem;
+
+          .favicon {
+            margin-right: 0.7rem;
+            margin-left: 0.1rem;
+            border-radius: 2px;
+            width: 1.2rem;
+            height: 1.2rem;
+            translate: 0 -2px;
+          }
+        }
       }
 
       .bottom {
@@ -70,6 +80,7 @@
         justify-content: flex-end;
 
         .text-effect {
+          display: inline-flex;
           padding: 0;
           border-radius: 30px;
 
@@ -91,10 +102,6 @@
               filter: blur(4px) contrast(3) brightness(1.5);
               opacity: 0.5;
             }
-          }
-
-          .no-of-problems {
-            margin: 0 0.4rem;
           }
 
           &.bad .dot {
@@ -146,13 +153,18 @@
         border-radius: 8px;
         z-index: -1;
         scale: 1.8;
-        filter: blur(15px) contrast(140%) saturate(180%);
+        filter: blur(15px) contrast(140%) saturate(150%);
       }
 
       &:has(a:hover, a:focus-visible) {
-        --transparentBg: light-dark(
+        --titleBackground: light-dark(
           color-mix(in srgb, var(--invert-body-color), var(--accent-color) 0%),
           color-mix(in srgb, var(--invert-body-color), var(--accent-color) 5%)
+        );
+        --listItemBackgroundTint: color-mix(
+          in srgb,
+          color-mix(in srgb, var(--accent-color), transparent 60%),
+          var(--invert-body-color) 20%
         );
       }
     }
