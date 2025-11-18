@@ -25,4 +25,10 @@
   /* Fonts */
   --body-font: "Inclusive Sans", sans-serif;
   --title-font: "Sono", sans-serif;
+
+  /* Outline */
+  --outline-w: 4px;
+  --outline-s: dotted;
+  --outline-c: var(--body-color);
+  --outline-o: 4px;
 }

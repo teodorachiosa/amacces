@@ -47,10 +47,10 @@ body {
 
 :focus-visible,
 .skip-link:focus-visible {
-  outline-style: solid;
-  outline-width: 2px;
-  outline-offset: 4px;
-  outline-color: var(--body-color);
+  outline-width: var(--outline-w);
+  outline-style: var(--outline-s);
+  outline-color: var(--outline-c);
+  outline-offset: var(--outline-o);
 }
 
 .skip-link:focus-visible {
@@ -58,6 +58,11 @@ body {
   height: auto;
   clip: unset;
   background-color: var(--invert-body-color);
+  box-shadow: 0 0 0 6px var(--invert-body-color);
+  padding: 10px;
+  outline-offset: 0;
+  margin-left: 6px;
+  font-size: 1.2rem;
 }
 
 * {
