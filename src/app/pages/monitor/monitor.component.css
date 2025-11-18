@@ -149,7 +149,7 @@
         filter: blur(15px) contrast(140%) saturate(180%);
       }
 
-      &:hover {
+      &:has(a:hover, a:focus-visible) {
         --transparentBg: light-dark(
           color-mix(in srgb, var(--invert-body-color), var(--accent-color) 0%),
           color-mix(in srgb, var(--invert-body-color), var(--accent-color) 5%)
