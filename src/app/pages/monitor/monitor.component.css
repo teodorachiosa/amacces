@@ -170,7 +170,7 @@
 
       &:has(a:focus-visible) {
         border: 2px solid var(--invert-body-color);
-        box-shadow: inset 0 0 0 9px var(--titleBackground);
+        box-shadow: inset 0 0 0 8px var(--titleBackground);
       }
     }
   }
