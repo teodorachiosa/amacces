@@ -41,7 +41,7 @@ export class AppComponent implements OnInit {
 
       if (event instanceof NavigationEnd) {
         this.routeEmoji = routes.find(
-          (route) => route.path === event.url.replace('/', '')
+          (route) => route.path === event.url.replace('/', '').split('#')[0]
         )?.emoji;
 
         if (this.activatedRoute.snapshot.fragment === null && event.id !== 1) {
