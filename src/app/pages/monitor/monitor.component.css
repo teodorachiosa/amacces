@@ -18,6 +18,15 @@
 
     .title {
       font-size: 1.2rem;
+
+      .favicon {
+        vertical-align: baseline;
+        margin-right: 0.7rem;
+        margin-left: 0.1rem;
+        border-radius: 2px;
+        width: 16px;
+        height: 16px;
+      }
     }
 
     li {
@@ -123,7 +132,6 @@
         background-repeat: no-repeat;
         background-position: center;
         border-radius: 8px;
-        opacity: 0.7;
         z-index: -1;
         scale: 1.8;
         filter: blur(15px) contrast(140%) saturate(180%);
