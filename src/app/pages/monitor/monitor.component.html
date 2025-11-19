@@ -1,19 +1,20 @@
 <markdown ngPreserveWhitespaces>
     Aceste site-uri au fost analizate cu ajutorul serviciului de testare automată [WebAIM
-    WAVE](https://wave.webaim.org/api/details|blank) și au primit un scor de la 0 la 10. 
+    WAVE](https://wave.webaim.org/api/details|blank) și au primit un scor de la 0 la 10, unde 10 este scorul maxim.
 
     **Notă:** Testarea automată are limitări și **nu** poate detecta 100% din probleme. În urma testării manuale se pot
     găsi probleme suplimentare. Pentru mai multe detalii, accesați paginile ce urmează:
 </markdown>
 <ul>
     @for (waveReport of waveReports; track waveReport.statistics.pageurl) {
-    <li
-        [style]="`--backgroundImage: url(https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${waveReport.statistics.pageurl}&size=64)`">
+    <li [style]="waveReport.favicon ? `--backgroundImage: url(${waveReport.favicon})` : null">
         <div class="top">
             <span class="text-effect">
                 <span class="title">
-                    <img class="favicon" [src]="`https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${waveReport.statistics.pageurl}&size=16`" alt="">
-                    <a [routerLink]="['/page-under-construction']">{{ waveReport.statistics.pagetitle}}</a>
+                    @if (waveReport.favicon) {
+                    <img class="favicon" [src]="waveReport.favicon" alt="">
+                    }
+                    <a [routerLink]="[`/monitorizare/${waveReport.slug}`]">{{waveReport.statistics.pagetitle}}</a>
                 </span>
                 <hr>
                 <span class="less-emphasis">{{stripUrl(waveReport.statistics.pageurl)}}</span>

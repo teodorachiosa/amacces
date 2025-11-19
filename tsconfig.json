@@ -19,7 +19,8 @@
     "module": "ES2022",
     "baseUrl": "./src",
     "paths": {
-      "@wave/*": ["wave/*"]
+      "@wave/*": ["wave/*"],
+      "@shared/*": ["app/shared/*"]
     }
   },
   "angularCompilerOptions": {

@@ -1,5 +1,7 @@
-const roGovSites = [
-  { url: "https://www.primaria-iasi.ro/", isBlocked: false },
+import { Site } from "@shared/types/sites";
+
+const roGovSites: Site[] = [
+  { url: 'https://www.primaria-iasi.ro/', isBlocked: false },
   { url: "https://pmb.ro/", isBlocked: false },
   { url: "https://www.adr.gov.ro/", isBlocked: false },
   { url: "https://www.senat.ro/", isBlocked: false },

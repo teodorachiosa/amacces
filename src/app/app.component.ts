@@ -39,11 +39,19 @@ export class AppComponent implements OnInit {
     this.router.events.subscribe((event) => {
       this.headingTitle = this.document.title.split('|')[0];
 
-      if (event instanceof NavigationEnd) {
-        this.routeEmoji = routes.find(
-          (route) => route.path === event.url.replace('/', '').split('#')[0]
-        )?.emoji;
+      const flatRoutes = routes.flatMap((route) => {
+        if ('children' in route) {
+          return route.children;
+        }
 
+        return route;
+      });
+
+      this.routeEmoji = flatRoutes.find(
+        (route) => route?.title === this.document.title
+      )?.emoji;
+
+      if (event instanceof NavigationEnd) {
         if (this.activatedRoute.snapshot.fragment === null && event.id !== 1) {
           this.mainHeadingElement = this.document.querySelector('h1');
           this.mainElement = this.document.getElementById('#main');

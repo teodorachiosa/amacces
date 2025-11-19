@@ -1,1 +1,554 @@
-[{"status":{"success":true,"httpstatuscode":200},"statistics":{"pagetitle":"Prima pagină","pageurl":"https://www.primaria-iasi.ro/","time":9.04,"creditsremaining":942,"AIMscore":7.4,"allitemcount":778,"totalelements":2740,"waveurl":"http://wave.webaim.org/report?url=https://www.primaria-iasi.ro/"},"categories":{"error":{"description":"Errors","count":8},"contrast":{"description":"Contrast Errors","count":1},"alert":{"description":"Alerts","count":107},"feature":{"description":"Features","count":193},"structure":{"description":"Structural Elements","count":255},"aria":{"description":"ARIA","count":214}},"timestamp":1763393025295},{"status":{"success":true,"httpstatuscode":200},"statistics":{"pagetitle":"Primăria București","pageurl":"https://pmb.ro/","time":8.45,"creditsremaining":941,"AIMscore":4.7,"allitemcount":356,"totalelements":1878,"waveurl":"http://wave.webaim.org/report?url=https://pmb.ro/"},"categories":{"error":{"description":"Errors","count":34},"contrast":{"description":"Contrast Errors","count":6},"alert":{"description":"Alerts","count":82},"feature":{"description":"Features","count":43},"structure":{"description":"Structural Elements","count":121},"aria":{"description":"ARIA","count":70}},"timestamp":1763393039208},{"status":{"success":true,"httpstatuscode":200},"statistics":{"pagetitle":"ADR – Autoritatea pentru Digitalizarea României","pageurl":"https://www.adr.gov.ro/","time":8.94,"creditsremaining":940,"AIMscore":5.6,"allitemcount":290,"totalelements":1128,"waveurl":"http://wave.webaim.org/report?url=https://www.adr.gov.ro/"},"categories":{"error":{"description":"Errors","count":1},"contrast":{"description":"Contrast Errors","count":28},"alert":{"description":"Alerts","count":8},"feature":{"description":"Features","count":8},"structure":{"description":"Structural Elements","count":102},"aria":{"description":"ARIA","count":143}},"timestamp":1763393053607},{"status":{"success":true,"httpstatuscode":200},"statistics":{"pagetitle":"Senatul României","pageurl":"https://www.senat.ro/","time":8.05,"creditsremaining":939,"AIMscore":1.6,"allitemcount":2565,"totalelements":4197,"waveurl":"http://wave.webaim.org/report?url=https://www.senat.ro/"},"categories":{"error":{"description":"Errors","count":267},"contrast":{"description":"Contrast Errors","count":217},"alert":{"description":"Alerts","count":48},"feature":{"description":"Features","count":11},"structure":{"description":"Structural Elements","count":251},"aria":{"description":"ARIA","count":1771}},"timestamp":1763393067108},{"status":{"success":true,"httpstatuscode":301},"statistics":{"pagetitle":"Casa Națională de Asigurări de Sănătate – Eficacitate și accesibilitate pentru sănătate","pageurl":"https://www.cnas.ro/","time":10.05,"creditsremaining":938,"AIMscore":6.5,"allitemcount":790,"totalelements":2883,"waveurl":"http://wave.webaim.org/report?url=https://www.cnas.ro/"},"categories":{"error":{"description":"Errors","count":8},"contrast":{"description":"Contrast Errors","count":15},"alert":{"description":"Alerts","count":7},"feature":{"description":"Features","count":22},"structure":{"description":"Structural Elements","count":58},"aria":{"description":"ARIA","count":680}},"timestamp":1763393082615},{"status":{"success":true,"httpstatuscode":301},"statistics":{"pagetitle":"Poliția Română","pageurl":"https://www.politiaromana.ro/","time":6.73,"creditsremaining":937,"AIMscore":2,"allitemcount":227,"totalelements":745,"waveurl":"http://wave.webaim.org/report?url=https://www.politiaromana.ro/"},"categories":{"error":{"description":"Errors","count":10},"contrast":{"description":"Contrast Errors","count":65},"alert":{"description":"Alerts","count":81},"feature":{"description":"Features","count":27},"structure":{"description":"Structural Elements","count":44},"aria":{"description":"ARIA","count":0}},"timestamp":1763393094808},{"status":{"success":true,"httpstatuscode":200},"statistics":{"pagetitle":"Comunicate de presa","pageurl":"https://www.anaf.ro/","time":13.85,"creditsremaining":936,"AIMscore":4.1,"allitemcount":278,"totalelements":1238,"waveurl":"http://wave.webaim.org/report?url=https://www.anaf.ro/"},"categories":{"error":{"description":"Errors","count":35},"contrast":{"description":"Contrast Errors","count":7},"alert":{"description":"Alerts","count":120},"feature":{"description":"Features","count":32},"structure":{"description":"Structural Elements","count":64},"aria":{"description":"ARIA","count":20}},"timestamp":1763393114091},{"status":{"success":true,"httpstatuscode":200},"statistics":{"pagetitle":"MINISTERUL AFACERILOR INTERNE – Site-ul MAI","pageurl":"https://www.mai.gov.ro/","time":7.05,"creditsremaining":935,"AIMscore":1.3,"allitemcount":532,"totalelements":1307,"waveurl":"http://wave.webaim.org/report?url=https://www.mai.gov.ro/"},"categories":{"error":{"description":"Errors","count":29},"contrast":{"description":"Contrast Errors","count":90},"alert":{"description":"Alerts","count":220},"feature":{"description":"Features","count":61},"structure":{"description":"Structural Elements","count":50},"aria":{"description":"ARIA","count":82}},"timestamp":1763393126602},{"status":{"success":true,"httpstatuscode":200},"statistics":{"pagetitle":"Ministerul Educației și Cercetării","pageurl":"https://www.edu.ro/","time":7.13,"creditsremaining":934,"AIMscore":3.9,"allitemcount":161,"totalelements":1279,"waveurl":"http://wave.webaim.org/report?url=https://www.edu.ro/"},"categories":{"error":{"description":"Errors","count":32},"contrast":{"description":"Contrast Errors","count":23},"alert":{"description":"Alerts","count":18},"feature":{"description":"Features","count":12},"structure":{"description":"Structural Elements","count":59},"aria":{"description":"ARIA","count":17}},"timestamp":1763393139203},{"status":{"success":true,"httpstatuscode":200},"statistics":{"pagetitle":"Ministerul Apararii Nationale","pageurl":"https://www.mapn.ro/","time":6.73,"creditsremaining":932,"AIMscore":4.5,"allitemcount":144,"totalelements":652,"waveurl":"http://wave.webaim.org/report?url=https://www.mapn.ro/"},"categories":{"error":{"description":"Errors","count":26},"contrast":{"description":"Contrast Errors","count":4},"alert":{"description":"Alerts","count":67},"feature":{"description":"Features","count":7},"structure":{"description":"Structural Elements","count":37},"aria":{"description":"ARIA","count":3}},"timestamp":1763393165140},{"status":{"success":true,"httpstatuscode":200},"statistics":{"pagetitle":"Ministerul Justiției","pageurl":"https://www.just.ro/","time":15.64,"creditsremaining":931,"AIMscore":2.8,"allitemcount":1568,"totalelements":5187,"waveurl":"http://wave.webaim.org/report?url=https://www.just.ro/"},"categories":{"error":{"description":"Errors","count":5},"contrast":{"description":"Contrast Errors","count":114},"alert":{"description":"Alerts","count":191},"feature":{"description":"Features","count":172},"structure":{"description":"Structural Elements","count":137},"aria":{"description":"ARIA","count":949}},"timestamp":1763393186248},{"status":{"success":true,"httpstatuscode":302},"statistics":{"pagetitle":"Ghiseul.ro - Sistemul National Electronic de Plata Online","pageurl":"https://www.ghiseul.ro/","time":8.43,"creditsremaining":930,"AIMscore":3.4,"allitemcount":113,"totalelements":261,"waveurl":"http://wave.webaim.org/report?url=https://www.ghiseul.ro/"},"categories":{"error":{"description":"Errors","count":12},"contrast":{"description":"Contrast Errors","count":35},"alert":{"description":"Alerts","count":13},"feature":{"description":"Features","count":4},"structure":{"description":"Structural Elements","count":24},"aria":{"description":"ARIA","count":25}},"timestamp":1763393200127},{"status":{"success":true,"httpstatuscode":200},"statistics":{"pagetitle":"e-guvernare","pageurl":"https://e-guvernare.ro/","time":7.73,"creditsremaining":929,"AIMscore":9.9,"allitemcount":116,"totalelements":536,"waveurl":"http://wave.webaim.org/report?url=https://e-guvernare.ro/"},"categories":{"error":{"description":"Errors","count":1},"contrast":{"description":"Contrast Errors","count":0},"alert":{"description":"Alerts","count":3},"feature":{"description":"Features","count":3},"structure":{"description":"Structural Elements","count":10},"aria":{"description":"ARIA","count":99}},"timestamp":1763393213295},{"status":{"success":true,"httpstatuscode":200},"statistics":{"pagetitle":"Acasă - ROeID - ROEID","pageurl":"https://www.roeid.ro/","time":11.17,"creditsremaining":928,"AIMscore":8.4,"allitemcount":70,"totalelements":797,"waveurl":"http://wave.webaim.org/report?url=https://www.roeid.ro/"},"categories":{"error":{"description":"Errors","count":5},"contrast":{"description":"Contrast Errors","count":0},"alert":{"description":"Alerts","count":4},"feature":{"description":"Features","count":14},"structure":{"description":"Structural Elements","count":23},"aria":{"description":"ARIA","count":24}},"timestamp":1763393229914},{"status":{"success":true,"httpstatuscode":301},"statistics":{"pagetitle":"Compania Națională de Căi Ferate ”CFR” – SA","pageurl":"https://www.cfr.ro/","time":10.54,"creditsremaining":927,"AIMscore":7.4,"allitemcount":740,"totalelements":2530,"waveurl":"http://wave.webaim.org/report?url=https://www.cfr.ro/"},"categories":{"error":{"description":"Errors","count":10},"contrast":{"description":"Contrast Errors","count":2},"alert":{"description":"Alerts","count":23},"feature":{"description":"Features","count":21},"structure":{"description":"Structural Elements","count":96},"aria":{"description":"ARIA","count":588}},"timestamp":1763393245915},{"status":{"success":true,"httpstatuscode":302},"statistics":{"pagetitle":"Rute trenuri - Mersul trenurilor CFR","pageurl":"https://mersultrenurilor.infofer.ro/","time":7.03,"creditsremaining":926,"AIMscore":3.9,"allitemcount":93,"totalelements":405,"waveurl":"http://wave.webaim.org/report?url=https://mersultrenurilor.infofer.ro/"},"categories":{"error":{"description":"Errors","count":11},"contrast":{"description":"Contrast Errors","count":22},"alert":{"description":"Alerts","count":16},"feature":{"description":"Features","count":10},"structure":{"description":"Structural Elements","count":13},"aria":{"description":"ARIA","count":21}},"timestamp":1763393258417},{"status":{"success":true,"httpstatuscode":200},"statistics":{"pagetitle":"CFR Călători pagina oficială. Mersul trenurilor. Bilete online. Oferte. Servicii","pageurl":"https://www.cfrcalatori.ro/","time":9.45,"creditsremaining":925,"AIMscore":5.7,"allitemcount":510,"totalelements":1920,"waveurl":"http://wave.webaim.org/report?url=https://www.cfrcalatori.ro/"},"categories":{"error":{"description":"Errors","count":23},"contrast":{"description":"Contrast Errors","count":8},"alert":{"description":"Alerts","count":55},"feature":{"description":"Features","count":33},"structure":{"description":"Structural Elements","count":114},"aria":{"description":"ARIA","count":277}},"timestamp":1763393273327},{"status":{"success":true,"httpstatuscode":200},"statistics":{"pagetitle":"Directia Generală pentru Evidenţa Persoanelor","pageurl":"https://depabd.mai.gov.ro/","time":5.83,"creditsremaining":924,"AIMscore":4.5,"allitemcount":65,"totalelements":329,"waveurl":"http://wave.webaim.org/report?url=https://depabd.mai.gov.ro/"},"categories":{"error":{"description":"Errors","count":20},"contrast":{"description":"Contrast Errors","count":6},"alert":{"description":"Alerts","count":22},"feature":{"description":"Features","count":0},"structure":{"description":"Structural Elements","count":17},"aria":{"description":"ARIA","count":0}},"timestamp":1763393284612},{"status":{"success":true,"httpstatuscode":302},"statistics":{"pagetitle":"Despre minister - Acasa - MF","pageurl":"https://mfinante.gov.ro/","time":8.03,"creditsremaining":923,"AIMscore":6.8,"allitemcount":217,"totalelements":2185,"waveurl":"http://wave.webaim.org/report?url=https://mfinante.gov.ro/"},"categories":{"error":{"description":"Errors","count":4},"contrast":{"description":"Contrast Errors","count":15},"alert":{"description":"Alerts","count":31},"feature":{"description":"Features","count":13},"structure":{"description":"Structural Elements","count":104},"aria":{"description":"ARIA","count":50}},"timestamp":1763393298080},{"status":{"success":true,"httpstatuscode":200},"statistics":{"pagetitle":"Autoritatea Națională pentru Cercetare :: www.research.gov.ro – ANC – www.research.gov.ro","pageurl":"https://www.research.gov.ro/","time":7.94,"creditsremaining":922,"AIMscore":6.5,"allitemcount":308,"totalelements":1944,"waveurl":"http://wave.webaim.org/report?url=https://www.research.gov.ro/"},"categories":{"error":{"description":"Errors","count":13},"contrast":{"description":"Contrast Errors","count":6},"alert":{"description":"Alerts","count":89},"feature":{"description":"Features","count":46},"structure":{"description":"Structural Elements","count":86},"aria":{"description":"ARIA","count":68}},"timestamp":1763393311456},{"status":{"success":true,"httpstatuscode":200},"statistics":{"pagetitle":"ANPC – Autoritatea Națională pentru Protecția Consumatorilor","pageurl":"https://anpc.ro/","time":8.56,"creditsremaining":921,"AIMscore":4,"allitemcount":1157,"totalelements":2891,"waveurl":"http://wave.webaim.org/report?url=https://anpc.ro/"},"categories":{"error":{"description":"Errors","count":8},"contrast":{"description":"Contrast Errors","count":42},"alert":{"description":"Alerts","count":203},"feature":{"description":"Features","count":28},"structure":{"description":"Structural Elements","count":122},"aria":{"description":"ARIA","count":754}},"timestamp":1763393325430},{"status":{"success":true,"httpstatuscode":200},"statistics":{"pagetitle":"Serviciul Român de Informații","pageurl":"https://sri.ro/","time":6.65,"creditsremaining":920,"AIMscore":3,"allitemcount":103,"totalelements":286,"waveurl":"http://wave.webaim.org/report?url=https://sri.ro/"},"categories":{"error":{"description":"Errors","count":4},"contrast":{"description":"Contrast Errors","count":55},"alert":{"description":"Alerts","count":5},"feature":{"description":"Features","count":9},"structure":{"description":"Structural Elements","count":17},"aria":{"description":"ARIA","count":13}},"timestamp":1763393337554},{"status":{"success":true,"httpstatuscode":200},"statistics":{"pagetitle":"Serviciul de Informaţii Externe","pageurl":"https://sie.ro/","time":8.86,"creditsremaining":919,"AIMscore":7.3,"allitemcount":4733,"totalelements":5096,"waveurl":"http://wave.webaim.org/report?url=https://sie.ro/"},"categories":{"error":{"description":"Errors","count":5},"contrast":{"description":"Contrast Errors","count":4},"alert":{"description":"Alerts","count":876},"feature":{"description":"Features","count":255},"structure":{"description":"Structural Elements","count":193},"aria":{"description":"ARIA","count":3400}},"timestamp":1763393351870},{"status":{"success":true,"httpstatuscode":200},"statistics":{"pagetitle":"Autoritatea de Supraveghere Financiară","pageurl":"https://www.asfromania.ro/","time":7.53,"creditsremaining":918,"AIMscore":4.8,"allitemcount":92,"totalelements":615,"waveurl":"http://wave.webaim.org/report?url=https://www.asfromania.ro/"},"categories":{"error":{"description":"Errors","count":24},"contrast":{"description":"Contrast Errors","count":4},"alert":{"description":"Alerts","count":19},"feature":{"description":"Features","count":7},"structure":{"description":"Structural Elements","count":38},"aria":{"description":"ARIA","count":0}},"timestamp":1763393364845},{"status":{"success":true,"httpstatuscode":200},"statistics":{"pagetitle":"Agenția de presă Rador | Agenția de presă Rador","pageurl":"http://www.rador.ro/","time":8.24,"creditsremaining":917,"AIMscore":1.3,"allitemcount":1038,"totalelements":3135,"waveurl":"http://wave.webaim.org/report?url=http://www.rador.ro/"},"categories":{"error":{"description":"Errors","count":64},"contrast":{"description":"Contrast Errors","count":280},"alert":{"description":"Alerts","count":304},"feature":{"description":"Features","count":133},"structure":{"description":"Structural Elements","count":225},"aria":{"description":"ARIA","count":32}},"timestamp":1763393378517},{"status":{"success":true,"httpstatuscode":302},"statistics":{"pagetitle":"Ministerul Sănătății - Ministerul Sănătății","pageurl":"https://www.ms.ro/","time":6.93,"creditsremaining":916,"AIMscore":7.7,"allitemcount":234,"totalelements":598,"waveurl":"http://wave.webaim.org/report?url=https://www.ms.ro/"},"categories":{"error":{"description":"Errors","count":3},"contrast":{"description":"Contrast Errors","count":2},"alert":{"description":"Alerts","count":79},"feature":{"description":"Features","count":33},"structure":{"description":"Structural Elements","count":46},"aria":{"description":"ARIA","count":71}},"timestamp":1763393390860}]
+[
+  {
+    "status": { "success": true, "httpstatuscode": 200 },
+    "statistics": {
+      "pagetitle": "Prima pagină",
+      "pageurl": "https://www.primaria-iasi.ro/",
+      "time": 8.64,
+      "creditsremaining": 863,
+      "AIMscore": 7.4,
+      "allitemcount": 778,
+      "totalelements": 2740,
+      "waveurl": "http://wave.webaim.org/report?url=https://www.primaria-iasi.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 8 },
+      "contrast": { "description": "Contrast Errors", "count": 1 },
+      "alert": { "description": "Alerts", "count": 107 },
+      "feature": { "description": "Features", "count": 193 },
+      "structure": { "description": "Structural Elements", "count": 255 },
+      "aria": { "description": "ARIA", "count": 214 }
+    },
+    "timestamp": 1763569941218,
+    "slug": "www-primaria-iasi-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.primaria-iasi.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 200 },
+    "statistics": {
+      "pagetitle": "Primăria București",
+      "pageurl": "https://pmb.ro/",
+      "time": 8.04,
+      "creditsremaining": 862,
+      "AIMscore": 4.7,
+      "allitemcount": 357,
+      "totalelements": 1878,
+      "waveurl": "http://wave.webaim.org/report?url=https://pmb.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 34 },
+      "contrast": { "description": "Contrast Errors", "count": 6 },
+      "alert": { "description": "Alerts", "count": 83 },
+      "feature": { "description": "Features", "count": 43 },
+      "structure": { "description": "Structural Elements", "count": 121 },
+      "aria": { "description": "ARIA", "count": 70 }
+    },
+    "timestamp": 1763569954685,
+    "slug": "pmb-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://pmb.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 200 },
+    "statistics": {
+      "pagetitle": "ADR – Autoritatea pentru Digitalizarea României",
+      "pageurl": "https://www.adr.gov.ro/",
+      "time": 9.24,
+      "creditsremaining": 861,
+      "AIMscore": 5.6,
+      "allitemcount": 290,
+      "totalelements": 1128,
+      "waveurl": "http://wave.webaim.org/report?url=https://www.adr.gov.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 1 },
+      "contrast": { "description": "Contrast Errors", "count": 28 },
+      "alert": { "description": "Alerts", "count": 8 },
+      "feature": { "description": "Features", "count": 8 },
+      "structure": { "description": "Structural Elements", "count": 102 },
+      "aria": { "description": "ARIA", "count": 143 }
+    },
+    "timestamp": 1763569969444,
+    "slug": "www-adr-gov-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.adr.gov.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 200 },
+    "statistics": {
+      "pagetitle": "Senatul României",
+      "pageurl": "https://www.senat.ro/",
+      "time": 7.24,
+      "creditsremaining": 860,
+      "AIMscore": 1.6,
+      "allitemcount": 2578,
+      "totalelements": 4187,
+      "waveurl": "http://wave.webaim.org/report?url=https://www.senat.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 272 },
+      "contrast": { "description": "Contrast Errors", "count": 220 },
+      "alert": { "description": "Alerts", "count": 49 },
+      "feature": { "description": "Features", "count": 11 },
+      "structure": { "description": "Structural Elements", "count": 254 },
+      "aria": { "description": "ARIA", "count": 1772 }
+    },
+    "timestamp": 1763569982125,
+    "slug": "www-senat-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.senat.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 301 },
+    "statistics": {
+      "pagetitle": "Casa Națională de Asigurări de Sănătate – Eficacitate și accesibilitate pentru sănătate",
+      "pageurl": "https://www.cnas.ro/",
+      "time": 9.85,
+      "creditsremaining": 859,
+      "AIMscore": 6.5,
+      "allitemcount": 790,
+      "totalelements": 2883,
+      "waveurl": "http://wave.webaim.org/report?url=https://www.cnas.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 8 },
+      "contrast": { "description": "Contrast Errors", "count": 15 },
+      "alert": { "description": "Alerts", "count": 7 },
+      "feature": { "description": "Features", "count": 22 },
+      "structure": { "description": "Structural Elements", "count": 58 },
+      "aria": { "description": "ARIA", "count": 680 }
+    },
+    "timestamp": 1763569997415,
+    "slug": "www-cnas-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.cnas.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 301 },
+    "statistics": {
+      "pagetitle": "Poliția Română",
+      "pageurl": "https://www.politiaromana.ro/",
+      "time": 6.63,
+      "creditsremaining": 858,
+      "AIMscore": 2,
+      "allitemcount": 229,
+      "totalelements": 753,
+      "waveurl": "http://wave.webaim.org/report?url=https://www.politiaromana.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 9 },
+      "contrast": { "description": "Contrast Errors", "count": 65 },
+      "alert": { "description": "Alerts", "count": 82 },
+      "feature": { "description": "Features", "count": 28 },
+      "structure": { "description": "Structural Elements", "count": 45 },
+      "aria": { "description": "ARIA", "count": 0 }
+    },
+    "timestamp": 1763570009484,
+    "slug": "www-politiaromana-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.politiaromana.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 200 },
+    "statistics": {
+      "pagetitle": "Comunicate de presa",
+      "pageurl": "https://www.anaf.ro/",
+      "time": 10.53,
+      "creditsremaining": 857,
+      "AIMscore": 4.1,
+      "allitemcount": 278,
+      "totalelements": 1238,
+      "waveurl": "http://wave.webaim.org/report?url=https://www.anaf.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 35 },
+      "contrast": { "description": "Contrast Errors", "count": 7 },
+      "alert": { "description": "Alerts", "count": 120 },
+      "feature": { "description": "Features", "count": 32 },
+      "structure": { "description": "Structural Elements", "count": 64 },
+      "aria": { "description": "ARIA", "count": 20 }
+    },
+    "timestamp": 1763570025459,
+    "slug": "www-anaf-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.anaf.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 200 },
+    "statistics": {
+      "pagetitle": "MINISTERUL AFACERILOR INTERNE – Site-ul MAI",
+      "pageurl": "https://www.mai.gov.ro/",
+      "time": 6.94,
+      "creditsremaining": 856,
+      "AIMscore": 1.3,
+      "allitemcount": 532,
+      "totalelements": 1315,
+      "waveurl": "http://wave.webaim.org/report?url=https://www.mai.gov.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 29 },
+      "contrast": { "description": "Contrast Errors", "count": 89 },
+      "alert": { "description": "Alerts", "count": 220 },
+      "feature": { "description": "Features", "count": 62 },
+      "structure": { "description": "Structural Elements", "count": 50 },
+      "aria": { "description": "ARIA", "count": 82 }
+    },
+    "timestamp": 1763570037843,
+    "slug": "www-mai-gov-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.mai.gov.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 200 },
+    "statistics": {
+      "pagetitle": "Ministerul Educației și Cercetării",
+      "pageurl": "https://www.edu.ro/",
+      "time": 7.03,
+      "creditsremaining": 855,
+      "AIMscore": 3.9,
+      "allitemcount": 161,
+      "totalelements": 1279,
+      "waveurl": "http://wave.webaim.org/report?url=https://www.edu.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 32 },
+      "contrast": { "description": "Contrast Errors", "count": 23 },
+      "alert": { "description": "Alerts", "count": 18 },
+      "feature": { "description": "Features", "count": 12 },
+      "structure": { "description": "Structural Elements", "count": 59 },
+      "aria": { "description": "ARIA", "count": 17 }
+    },
+    "timestamp": 1763570050313,
+    "slug": "www-edu-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.edu.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 200 },
+    "statistics": {
+      "pagetitle": "Ministerul Justiției",
+      "pageurl": "https://www.just.ro/",
+      "time": 16.98,
+      "creditsremaining": 854,
+      "AIMscore": 2.8,
+      "allitemcount": 1568,
+      "totalelements": 5187,
+      "waveurl": "http://wave.webaim.org/report?url=https://www.just.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 5 },
+      "contrast": { "description": "Contrast Errors", "count": 114 },
+      "alert": { "description": "Alerts", "count": 191 },
+      "feature": { "description": "Features", "count": 172 },
+      "structure": { "description": "Structural Elements", "count": 137 },
+      "aria": { "description": "ARIA", "count": 949 }
+    },
+    "timestamp": 1763570120118,
+    "slug": "www-just-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.just.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 302 },
+    "statistics": {
+      "pagetitle": "Ghiseul.ro - Sistemul National Electronic de Plata Online",
+      "pageurl": "https://www.ghiseul.ro/",
+      "time": 6.83,
+      "creditsremaining": 853,
+      "AIMscore": 3.4,
+      "allitemcount": 113,
+      "totalelements": 261,
+      "waveurl": "http://wave.webaim.org/report?url=https://www.ghiseul.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 12 },
+      "contrast": { "description": "Contrast Errors", "count": 35 },
+      "alert": { "description": "Alerts", "count": 13 },
+      "feature": { "description": "Features", "count": 4 },
+      "structure": { "description": "Structural Elements", "count": 24 },
+      "aria": { "description": "ARIA", "count": 25 }
+    },
+    "timestamp": 1763570132412,
+    "slug": "www-ghiseul-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.ghiseul.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 200 },
+    "statistics": {
+      "pagetitle": "e-guvernare",
+      "pageurl": "https://e-guvernare.ro/",
+      "time": 7.63,
+      "creditsremaining": 852,
+      "AIMscore": 9.9,
+      "allitemcount": 116,
+      "totalelements": 536,
+      "waveurl": "http://wave.webaim.org/report?url=https://e-guvernare.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 1 },
+      "contrast": { "description": "Contrast Errors", "count": 0 },
+      "alert": { "description": "Alerts", "count": 3 },
+      "feature": { "description": "Features", "count": 3 },
+      "structure": { "description": "Structural Elements", "count": 10 },
+      "aria": { "description": "ARIA", "count": 99 }
+    },
+    "timestamp": 1763570145453,
+    "slug": "e-guvernare-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://e-guvernare.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 200 },
+    "statistics": {
+      "pagetitle": "Acasă - ROeID - ROEID",
+      "pageurl": "https://www.roeid.ro/",
+      "time": 10.76,
+      "creditsremaining": 851,
+      "AIMscore": 8.4,
+      "allitemcount": 70,
+      "totalelements": 797,
+      "waveurl": "http://wave.webaim.org/report?url=https://www.roeid.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 5 },
+      "contrast": { "description": "Contrast Errors", "count": 0 },
+      "alert": { "description": "Alerts", "count": 4 },
+      "feature": { "description": "Features", "count": 14 },
+      "structure": { "description": "Structural Elements", "count": 23 },
+      "aria": { "description": "ARIA", "count": 24 }
+    },
+    "timestamp": 1763570161638,
+    "slug": "www-roeid-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.roeid.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 301 },
+    "statistics": {
+      "pagetitle": "Compania Națională de Căi Ferate ”CFR” – SA",
+      "pageurl": "https://www.cfr.ro/",
+      "time": 10.55,
+      "creditsremaining": 850,
+      "AIMscore": 7.4,
+      "allitemcount": 740,
+      "totalelements": 2530,
+      "waveurl": "http://wave.webaim.org/report?url=https://www.cfr.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 10 },
+      "contrast": { "description": "Contrast Errors", "count": 2 },
+      "alert": { "description": "Alerts", "count": 23 },
+      "feature": { "description": "Features", "count": 21 },
+      "structure": { "description": "Structural Elements", "count": 96 },
+      "aria": { "description": "ARIA", "count": 588 }
+    },
+    "timestamp": 1763570177625,
+    "slug": "www-cfr-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.cfr.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 302 },
+    "statistics": {
+      "pagetitle": "Rute trenuri - Mersul trenurilor CFR",
+      "pageurl": "https://mersultrenurilor.infofer.ro/",
+      "time": 7.13,
+      "creditsremaining": 849,
+      "AIMscore": 3.9,
+      "allitemcount": 93,
+      "totalelements": 405,
+      "waveurl": "http://wave.webaim.org/report?url=https://mersultrenurilor.infofer.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 11 },
+      "contrast": { "description": "Contrast Errors", "count": 22 },
+      "alert": { "description": "Alerts", "count": 16 },
+      "feature": { "description": "Features", "count": 10 },
+      "structure": { "description": "Structural Elements", "count": 13 },
+      "aria": { "description": "ARIA", "count": 21 }
+    },
+    "timestamp": 1763570190171,
+    "slug": "mersultrenurilor-infofer-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://mersultrenurilor.infofer.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 200 },
+    "statistics": {
+      "pagetitle": "CFR Călători pagina oficială. Mersul trenurilor. Bilete online. Oferte. Servicii",
+      "pageurl": "https://www.cfrcalatori.ro/",
+      "time": 9.04,
+      "creditsremaining": 848,
+      "AIMscore": 5.7,
+      "allitemcount": 510,
+      "totalelements": 1920,
+      "waveurl": "http://wave.webaim.org/report?url=https://www.cfrcalatori.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 23 },
+      "contrast": { "description": "Contrast Errors", "count": 8 },
+      "alert": { "description": "Alerts", "count": 55 },
+      "feature": { "description": "Features", "count": 33 },
+      "structure": { "description": "Structural Elements", "count": 114 },
+      "aria": { "description": "ARIA", "count": 277 }
+    },
+    "timestamp": 1763570204662,
+    "slug": "www-cfrcalatori-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.cfrcalatori.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 200 },
+    "statistics": {
+      "pagetitle": "Directia Generală pentru Evidenţa Persoanelor",
+      "pageurl": "https://depabd.mai.gov.ro/",
+      "time": 5.73,
+      "creditsremaining": 847,
+      "AIMscore": 4.2,
+      "allitemcount": 71,
+      "totalelements": 333,
+      "waveurl": "http://wave.webaim.org/report?url=https://depabd.mai.gov.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 21 },
+      "contrast": { "description": "Contrast Errors", "count": 11 },
+      "alert": { "description": "Alerts", "count": 22 },
+      "feature": { "description": "Features", "count": 0 },
+      "structure": { "description": "Structural Elements", "count": 17 },
+      "aria": { "description": "ARIA", "count": 0 }
+    },
+    "timestamp": 1763570215840,
+    "slug": "depabd-mai-gov-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://depabd.mai.gov.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 302 },
+    "statistics": {
+      "pagetitle": "Despre minister - Acasa - MF",
+      "pageurl": "https://mfinante.gov.ro/",
+      "time": 7.96,
+      "creditsremaining": 846,
+      "AIMscore": 6.8,
+      "allitemcount": 217,
+      "totalelements": 2181,
+      "waveurl": "http://wave.webaim.org/report?url=https://mfinante.gov.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 4 },
+      "contrast": { "description": "Contrast Errors", "count": 15 },
+      "alert": { "description": "Alerts", "count": 31 },
+      "feature": { "description": "Features", "count": 13 },
+      "structure": { "description": "Structural Elements", "count": 104 },
+      "aria": { "description": "ARIA", "count": 50 }
+    },
+    "timestamp": 1763570229240,
+    "slug": "mfinante-gov-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://mfinante.gov.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 200 },
+    "statistics": {
+      "pagetitle": "Autoritatea Națională pentru Cercetare :: www.research.gov.ro – ANC – www.research.gov.ro",
+      "pageurl": "https://www.research.gov.ro/",
+      "time": 8.14,
+      "creditsremaining": 845,
+      "AIMscore": 6.5,
+      "allitemcount": 308,
+      "totalelements": 1944,
+      "waveurl": "http://wave.webaim.org/report?url=https://www.research.gov.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 13 },
+      "contrast": { "description": "Contrast Errors", "count": 6 },
+      "alert": { "description": "Alerts", "count": 89 },
+      "feature": { "description": "Features", "count": 46 },
+      "structure": { "description": "Structural Elements", "count": 86 },
+      "aria": { "description": "ARIA", "count": 68 }
+    },
+    "timestamp": 1763570242810,
+    "slug": "www-research-gov-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.research.gov.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 200 },
+    "statistics": {
+      "pagetitle": "ANPC – Autoritatea Națională pentru Protecția Consumatorilor",
+      "pageurl": "https://anpc.ro/",
+      "time": 10.99,
+      "creditsremaining": 844,
+      "AIMscore": 4,
+      "allitemcount": 1157,
+      "totalelements": 2891,
+      "waveurl": "http://wave.webaim.org/report?url=https://anpc.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 8 },
+      "contrast": { "description": "Contrast Errors", "count": 42 },
+      "alert": { "description": "Alerts", "count": 203 },
+      "feature": { "description": "Features", "count": 28 },
+      "structure": { "description": "Structural Elements", "count": 122 },
+      "aria": { "description": "ARIA", "count": 754 }
+    },
+    "timestamp": 1763570259269,
+    "slug": "anpc-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://anpc.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 200 },
+    "statistics": {
+      "pagetitle": "Serviciul Român de Informații",
+      "pageurl": "https://sri.ro/",
+      "time": 5.53,
+      "creditsremaining": 843,
+      "AIMscore": 3,
+      "allitemcount": 103,
+      "totalelements": 286,
+      "waveurl": "http://wave.webaim.org/report?url=https://sri.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 4 },
+      "contrast": { "description": "Contrast Errors", "count": 55 },
+      "alert": { "description": "Alerts", "count": 5 },
+      "feature": { "description": "Features", "count": 9 },
+      "structure": { "description": "Structural Elements", "count": 17 },
+      "aria": { "description": "ARIA", "count": 13 }
+    },
+    "timestamp": 1763570270247,
+    "slug": "sri-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://sri.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 200 },
+    "statistics": {
+      "pagetitle": "Serviciul de Informaţii Externe",
+      "pageurl": "https://sie.ro/",
+      "time": 8.56,
+      "creditsremaining": 842,
+      "AIMscore": 7.3,
+      "allitemcount": 4733,
+      "totalelements": 5096,
+      "waveurl": "http://wave.webaim.org/report?url=https://sie.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 5 },
+      "contrast": { "description": "Contrast Errors", "count": 4 },
+      "alert": { "description": "Alerts", "count": 876 },
+      "feature": { "description": "Features", "count": 255 },
+      "structure": { "description": "Structural Elements", "count": 193 },
+      "aria": { "description": "ARIA", "count": 3400 }
+    },
+    "timestamp": 1763570284274,
+    "slug": "sie-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://sie.ro/&size=16"
+  },
+  {
+    "status": { "success": true, "httpstatuscode": 200 },
+    "statistics": {
+      "pagetitle": "Autoritatea de Supraveghere Financiară",
+      "pageurl": "https://www.asfromania.ro/",
+      "time": 7.44,
+      "creditsremaining": 841,
+      "AIMscore": 4.8,
+      "allitemcount": 92,
+      "totalelements": 615,
+      "waveurl": "http://wave.webaim.org/report?url=https://www.asfromania.ro/"
+    },
+    "categories": {
+      "error": { "description": "Errors", "count": 24 },
+      "contrast": { "description": "Contrast Errors", "count": 4 },
+      "alert": { "description": "Alerts", "count": 19 },
+      "feature": { "description": "Features", "count": 7 },
+      "structure": { "description": "Structural Elements", "count": 38 },
+      "aria": { "description": "ARIA", "count": 0 }
+    },
+    "timestamp": 1763570297154,
+    "slug": "www-asfromania-ro",
+    "favicon": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.asfromania.ro/&size=16"
+  }
+]

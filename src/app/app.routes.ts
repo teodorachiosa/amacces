@@ -1,9 +1,13 @@
-import { ResolveFn, Route, Routes } from '@angular/router';
-import { HomeComponent } from './pages/home/home.component';
-import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { Route } from '@angular/router';
+import { SiteOverviewComponent } from './pages/monitor/site-overview/site-overview.component';
+
+/**
+ * TODO: Refactor route data: https://angular.dev/api/router/Resolve
+ */
 
 export interface CustomRoute extends Route {
   emoji?: string;
+  children?: CustomRoute[];
 }
 
 export const titleResolver = (title: string) => {
@@ -16,14 +20,30 @@ export const routes: CustomRoute[] = [
     loadComponent: () =>
       import('./pages/home/home.component').then((m) => m.HomeComponent),
     title: titleResolver('Acasă'),
-    emoji: '🏠'
+    emoji: '🏠',
   },
   {
     path: 'monitorizare',
-    loadComponent: () =>
-      import('./pages/monitor/monitor.component').then((m) => m.MonitorComponent),
-    title: titleResolver('Monitorizare'),
-    emoji: '🖥️'
+    children: [
+      {
+        title: titleResolver('Monitorizare'),
+        path: '',
+        loadComponent: () =>
+          import('./pages/monitor/monitor.component').then(
+            (m) => m.MonitorComponent
+          ),
+        emoji: '🖥️',
+      },
+      {
+        title: titleResolver('TODO: Add title'),
+        path: ':id',
+        loadComponent: () =>
+          import('./pages/monitor/site-overview/site-overview.component').then(
+            (m) => m.SiteOverviewComponent
+          ),
+        emoji: '🕵️‍♀️'
+      },
+    ],
   },
   {
     path: '**',

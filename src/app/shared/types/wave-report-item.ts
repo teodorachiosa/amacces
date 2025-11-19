@@ -1,7 +1,15 @@
 export type WaveReportItem = {
+    status: WaveReportStatus;
     statistics: WaveReportStatistics;
     categories: WaveReportCategories;
     timestamp: number;
+    slug: string;
+    favicon?: string;
+}
+
+export type WaveReportStatus = {
+    success: boolean;
+    httpstatuscode: number;
 }
 
 export type WaveReportStatistics = {

@@ -6,7 +6,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "wave": "cd scripts && node wave.js",
+    "wave": "cd scripts && npx tsx wave.ts",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:amacces": "node dist/amacces/server/server.mjs"
@@ -38,12 +38,14 @@
     "@types/express": "^5.0.5",
     "@types/jasmine": "~5.1.12",
     "@types/node": "^24.10.1",
+    "@types/node-fetch": "^2.6.13",
     "jasmine-core": "~5.12.1",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "tsx": "^4.20.6",
     "typescript": "~5.9.3"
   }
 }
