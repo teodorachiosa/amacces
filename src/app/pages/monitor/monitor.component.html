@@ -1,3 +1,10 @@
+<!-- <div style="display: inline-flex; gap: 1rem;">
+    <button>Primary</button>
+    <button class="success">Success</button>
+    <button class="danger">Danger</button>
+    <button class="secondary">Secondary</button>
+</div> -->
+
 <markdown ngPreserveWhitespaces>
     Aceste site-uri au fost analizate cu ajutorul serviciului de testare automată [WebAIM
     WAVE](https://wave.webaim.org/api/details|blank) și au primit un scor de la 0 la 10, unde 10 este scorul maxim.
@@ -14,7 +21,8 @@
                     @if (waveReport.favicon) {
                     <img class="favicon" [src]="waveReport.favicon" alt="">
                     }
-                    <a [routerLink]="[`/monitorizare/${waveReport.slug}`]">{{waveReport.statistics.pagetitle}}</a>
+                    <a [routerLink]="[`/monitorizare/${waveReport.slug}`]"
+                        [info]="waveReport">{{waveReport.statistics.pagetitle}}</a>
                 </span>
                 <hr>
                 <span class="less-emphasis">{{stripUrl(waveReport.statistics.pageurl)}}</span>
@@ -36,16 +44,3 @@
     <li>Nu există rezultate de afișat...</li>
     }
 </ul>
-
-<!-- <div style="display: inline-flex; gap: 1rem;">
-    <button>Primary</button>
-    <button class="success">Success</button>
-    <button class="danger">Danger</button>
-    <button class="secondary">Secondary</button>
-</div>
-<p>No one shall be subjected to arbitrary arrest, detention or exile.
-    Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the
-    determination of his rights and obligations and of any criminal charge against him.
-    No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks
-    upon his honour and reputation. Everyone has the right to the protection of the law against such interference or
-    attacks.</p> -->

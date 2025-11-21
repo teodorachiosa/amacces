@@ -1,18 +1,10 @@
 import { Route } from '@angular/router';
-import { SiteOverviewComponent } from './pages/monitor/site-overview/site-overview.component';
-
-/**
- * TODO: Refactor route data: https://angular.dev/api/router/Resolve
- */
+import { titleResolver } from '@shared/utilities/title-resolver';
 
 export interface CustomRoute extends Route {
   emoji?: string;
   children?: CustomRoute[];
 }
-
-export const titleResolver = (title: string) => {
-  return `${title} | Am acces?`;
-};
 
 export const routes: CustomRoute[] = [
   {
@@ -35,7 +27,7 @@ export const routes: CustomRoute[] = [
         emoji: '🖥️',
       },
       {
-        title: titleResolver('TODO: Add title'),
+        title: titleResolver('Monitorizare'), /* Set more specific title in component */
         path: ':id',
         loadComponent: () =>
           import('./pages/monitor/site-overview/site-overview.component').then(
