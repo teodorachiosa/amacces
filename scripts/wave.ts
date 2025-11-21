@@ -42,8 +42,8 @@ for (const { url, isBlocked } of sites) {
         }
       }
 
-      console.log('Waiting 5 seconds...');
-      await sleep(5000);
+      console.log('Waiting 10 seconds...');
+      await sleep(10000);
       console.log('Resuming...');
     } catch (error) {
       console.log(error, url);
