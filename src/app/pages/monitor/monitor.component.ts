@@ -1,8 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { MarkdownComponent } from 'ngx-markdown';
-import waveAllInOne from '@wave/wave-all-in-one.json';
 import { WaveReportItem } from '@shared/types/wave-report-item';
 import { RouterLink } from '@angular/router';
+import { WaveResultsService } from 'app/services/wave-results.service';
 
 @Component({
   selector: 'ac-monitor',
@@ -10,8 +10,13 @@ import { RouterLink } from '@angular/router';
   templateUrl: './monitor.component.html',
   styleUrl: './monitor.component.css',
 })
-export class MonitorComponent {
-  waveReports: WaveReportItem[] = waveAllInOne;
+export class MonitorComponent implements OnInit {
+  waveResultsService = inject(WaveResultsService);
+  waveReports: WaveReportItem[] = [];
+
+  ngOnInit(): void {
+    this.waveReports = this.waveResultsService.getData();
+  }
 
   stripUrl(url: string): string {
     let transformedUrl = url.replace('http://', '');
@@ -19,4 +24,5 @@ export class MonitorComponent {
     transformedUrl = transformedUrl.replace('/', '');
     return transformedUrl;
   }
+
 }

@@ -1,8 +1,8 @@
 import { JsonPipe } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { WaveReportItem } from '@shared/types/wave-report-item';
-import waveAllInOne from '@wave/wave-all-in-one.json';
+import { WaveResultsService } from 'app/services/wave-results.service';
 
 @Component({
   selector: 'ac-site-overview',
@@ -12,10 +12,11 @@ import waveAllInOne from '@wave/wave-all-in-one.json';
 })
 export class SiteOverviewComponent implements OnInit {
   waveReport?: WaveReportItem;
-  constructor(private readonly activatedRoute: ActivatedRoute) {}
+  activatedRoute = inject(ActivatedRoute);
+  waveAllInOne = inject(WaveResultsService);
 
   ngOnInit(): void {
-    this.waveReport = waveAllInOne.find(
+    this.waveReport = this.waveAllInOne.getData().find(
       (item: WaveReportItem) =>
         item.slug === this.activatedRoute.snapshot.url[0].path
     );
