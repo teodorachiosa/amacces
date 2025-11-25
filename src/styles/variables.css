@@ -12,12 +12,26 @@
 
   --body-color: light-dark(
     oklch(from var(--white) calc(l - 1) c h),
-    oklch(from var(--white) calc(l - 0.15) c h)
+    oklch(from var(--white) calc(l - 0.1) c h)
   );
   --invert-body-color: light-dark(
     var(--white),
     oklch(from var(--white) calc(l - 0.87) calc(c + 0.02) calc(h + 350))
   );
+
+  --border-color: color-mix(
+    in srgb,
+    color-mix(in srgb, var(--body-color), var(--accent-color) 65%),
+    transparent 65%
+  );
+  --border: 2px solid var(--border-color);
+
+  --border-hover-color: color-mix(
+    in srgb,
+    color-mix(in srgb, var(--body-color), var(--accent-color) 65%),
+    transparent 45%
+  );
+  --border-hover: 2px solid var(--border-hover-color);
 
   /* Animations */
   --short-transition: 0.15s;

@@ -7,25 +7,30 @@
     top: 0;
     z-index: 2;
     padding: 0.5rem;
-    border-bottom: solid 2px color-mix(in srgb, var(--body-color), transparent 90%);
+    border-bottom: solid 2px
+      color-mix(in srgb, var(--body-color), transparent 90%);
     background-color: color-mix(
       in srgb,
       var(--invert-body-color),
       var(--white) 2%
     );
-  }
 
-  .logo {
-    display: inline-block;
-    width: 8rem;
-    margin-top: 1rem;
-
-    ::ng-deep svg {
-      width: 100%;
+    .home-link {
+      display: inline-block;
     }
 
-    ::ng-deep path {
-      fill: var(--body-color);
+    .logo {
+      display: inline-block;
+      width: 8rem;
+      margin-top: 1rem;
+
+      ::ng-deep svg {
+        width: 100%;
+      }
+
+      ::ng-deep path {
+        fill: var(--body-color);
+      }
     }
   }
 }

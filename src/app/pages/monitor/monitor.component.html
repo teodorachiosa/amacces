@@ -16,7 +16,7 @@
     @for (waveReport of waveReports; track waveReport.statistics.pageurl) {
     <li [style]="waveReport.favicon ? `--backgroundImage: url(${waveReport.favicon})` : null">
         <div class="top">
-            <span class="text-effect">
+            <span class="list-item-text">
                 <span class="title">
                     @if (waveReport.favicon) {
                     <img class="favicon" [src]="waveReport.favicon" alt="">
@@ -29,7 +29,7 @@
             </span>
         </div>
         <div class="bottom">
-            <span class="text-effect"
+            <span class="list-item-text"
                 [class]="{'good': waveReport.statistics.AIMscore > 7, 'neutral': waveReport.statistics.AIMscore <= 7 && waveReport.statistics.AIMscore >= 4, 'bad': waveReport.statistics.AIMscore < 4}">
                 <span class="score">
                     <span class="dot">

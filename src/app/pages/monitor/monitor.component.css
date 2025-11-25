@@ -17,7 +17,6 @@
     }
 
     li {
-      --titleBackground: transparent;
       position: relative;
       display: flex;
       justify-content: space-between;
@@ -25,40 +24,32 @@
       gap: 2rem;
       font-family: var(--title-font);
       width: 100%;
-      border: 2px solid
-        color-mix(
-          in srgb,
-          color-mix(in srgb, var(--body-color), var(--accent-color) 65%),
-          transparent 65%
-        );
+      border: var(--border);
       border-radius: 6px;
       min-height: 220px;
       padding: 21px 26px;
       overflow: hidden;
 
-      .text-effect {
+      .list-item-text {
         display: inline;
         vertical-align: middle;
         padding: 10px;
         padding-left: 0;
         padding-right: 0;
-        background: var(--titleBackground);
         font-weight: 500;
-        box-shadow: 10px 0 0 var(--titleBackground),
-          -10px 0 0 var(--titleBackground);
         box-decoration-break: clone;
         word-break: break-word;
       }
 
       .top {
-        .text-effect {
+        .list-item-text {
           * {
             vertical-align: middle;
           }
         }
 
         .title {
-          font-size: 1.2rem;
+          font-size: 1.1rem;
 
           .favicon {
             margin-right: 0.7rem;
@@ -75,10 +66,9 @@
         display: flex;
         justify-content: flex-end;
 
-        .text-effect {
+        .list-item-text {
           display: inline-flex;
           padding: 0;
-          border-radius: 30px;
 
           .score {
             display: inline-flex;
@@ -160,16 +150,16 @@
         z-index: -1;
         scale: 1.9;
         filter: blur(15px) contrast(120%) saturate(120%);
-        opacity: 0.2;
+        opacity: 0.17;
       }
 
       &:has(a:hover, a:focus-visible) {
-        --titleBackground: light-dark(
-          color-mix(in srgb, var(--invert-body-color), var(--accent-color) 0%),
-          color-mix(in srgb, var(--invert-body-color), var(--accent-color) 5%)
-        );
+        translate: -2px -2px;
+        border: var(--border-hover);
+        box-shadow: 4px 4px 0 0 var(--border-color);
+
         &::before {
-          opacity: 0.4;
+          opacity: 0.25;
         }
       }
 
