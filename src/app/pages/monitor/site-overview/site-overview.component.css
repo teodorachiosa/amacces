@@ -1,0 +1,23 @@
+:host {
+  table {
+    text-align: left;
+    border-collapse: collapse;
+
+    th,
+    td {
+      padding: 0.5rem 1rem;
+    }
+
+    tr:not(:last-child) {
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    tr:hover {
+      background: color-mix(in srgb, var(--border-color), transparent 80%);
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+}

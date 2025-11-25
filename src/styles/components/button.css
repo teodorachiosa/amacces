@@ -32,7 +32,7 @@ button,
   --elevation-3: 3px;
 
   padding: 0.5rem 1rem;
-  border-radius: 10px;
+  border-radius: var(--radius);
   border: 2px solid
     color-mix(
       in srgb-linear,

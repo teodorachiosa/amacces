@@ -1,3 +1,52 @@
-<pre>
-    {{waveReport | json}}  
-</pre>
+<markdown ngPreserveWhitespaces>
+    ## Verificări automate
+</markdown>
+
+<table>
+    <caption class="visually-hidden">Automatic checks overview</caption>
+    <tbody>
+        <tr>
+            <th>Număr erori de accesibilitate</th>
+            <td>{{waveReport?.categories?.error?.count}}</td>
+        </tr>
+        <tr>
+            <th>Număr probleme de contrast</th>
+            <td>{{waveReport?.categories?.contrast?.count}}</td>
+        </tr>
+        <tr>
+            <th>Link spre rezultatele complete</th>
+            <td>
+                <a href="{{waveReport?.statistics?.waveurl}}">
+                    Rezultate complete
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <th>Ultima verificare</th>
+            <td>{{waveLastRun}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<markdown ngPreserveWhitespaces>
+    ## Verificări manuale
+    ### Declarație de accesibilitate
+</markdown>
+
+<table>
+    <caption class="visually-hidden">Accessibility Statement</caption>
+    <tbody>
+        <tr>
+            <th>Prezentă declarația de accesibilitate</th>
+            <td>Da</td>
+        </tr>
+        <tr>
+            <th>Ultima verificare (declarația de accesibilitate)</th>
+            <td>26 noiembrie 2025</td>
+        </tr>
+    </tbody>
+</table>
+
+<markdown ngPreserveWhitespaces>
+    ### Probleme detectate manual
+</markdown>

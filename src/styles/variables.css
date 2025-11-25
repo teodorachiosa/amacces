@@ -33,6 +33,8 @@
   );
   --border-hover: 2px solid var(--border-hover-color);
 
+  --radius: 6px;
+
   /* Animations */
   --short-transition: 0.15s;
 
