@@ -27,8 +27,8 @@
   --title-font: "Sono", sans-serif;
 
   /* Outline */
-  --outline-w: 4px;
+  --outline-w: 3px;
   --outline-s: dotted;
   --outline-c: var(--body-color);
-  --outline-o: 4px;
+  --outline-o: 3px;
 }
