@@ -22,14 +22,20 @@
   --border-color: color-mix(
     in srgb,
     color-mix(in srgb, var(--body-color), var(--accent-color) 65%),
-    transparent 65%
+    var(--invert-body-color) 29%
   );
   --border: 2px solid var(--border-color);
 
+  --border-color-light: color-mix(
+    in srgb,
+    color-mix(in srgb, var(--body-color), var(--accent-color) 80%),
+    var(--invert-body-color) 50%
+  );
+
   --border-hover-color: color-mix(
     in srgb,
-    color-mix(in srgb, var(--body-color), var(--accent-color) 65%),
-    transparent 45%
+    color-mix(in srgb, var(--body-color), var(--accent-color) 80%),
+    var(--invert-body-color) 10%
   );
   --border-hover: 2px solid var(--border-hover-color);
 

@@ -2,6 +2,7 @@ button,
 .blink {
   --button__background-color: var(--accent-color);
   --darkness-multiplier: 1;
+  --border-color: var(--border-color-light);
 
   --button__default__background-color: light-dark(
     oklch(from var(--button__background-color) calc(l + 0.35) c h),
@@ -32,43 +33,11 @@ button,
   --elevation-3: 3px;
 
   padding: 0.5rem 1rem;
+  border: var(--border);
   border-radius: var(--radius);
-  border: 2px solid
-    color-mix(
-      in srgb-linear,
-      var(--button__default__background-color),
-      var(--black) 80%
-    );
-  box-shadow: inset 0 0.05rem 0.1rem
-      color-mix(
-        in srgb-linear,
-        var(--button__default__background-color),
-        var(--white) var(--top-highlight-percentage)
-      ),
-    inset 0 2.1rem 1.5rem
-      color-mix(
-        in srgb-linear,
-        var(--button__default__background-color),
-        var(--black) var(--bottom-shadow-percentage)
-      ),
-    var(--elevation-1) var(--elevation-1) 0 0
-      color-mix(
-        in srgb-linear,
-        var(--button__default__background-color),
-        var(--black) 70%
-      ),
-    var(--elevation-2) var(--elevation-2) 0 0
-      color-mix(
-        in srgb-linear,
-        var(--button__default__background-color),
-        var(--black) 70%
-      ),
-    var(--elevation-3) var(--elevation-3) 0 0
-      color-mix(
-        in srgb-linear,
-        var(--button__default__background-color),
-        var(--black) 70%
-      );
+  box-shadow: var(--elevation-1) var(--elevation-1) 0 0 var(--border-color),
+    var(--elevation-2) var(--elevation-2) 0 0 var(--border-color),
+    var(--elevation-3) var(--elevation-3) 0 0 var(--border-color);
   color: light-dark(var(--black), var(--white));
   font-size: 1.1rem;
   letter-spacing: 0.1rem;
@@ -93,7 +62,7 @@ button,
     --button__background-color: oklch(
       from var(--white) l calc(c + 0.05) calc(h + 350)
     );
-    --darkness-multiplier: 1.9;
+    --darkness-multiplier: 2;
   }
 
   &:hover,
