@@ -148,7 +148,7 @@
         z-index: -1;
         scale: 1.9;
         filter: blur(15px) contrast(120%) saturate(120%);
-        opacity: 0.15;
+        opacity: 0.2;
       }
 
       &:has(a:hover, a:focus-visible) {
@@ -165,7 +165,7 @@
           var(--elevation-3) var(--elevation-3) 0 0 var(--border-color);
 
         &::before {
-          opacity: 0.25;
+          opacity: 0.3;
         }
       }
 
