@@ -26,9 +26,4 @@ h1 {
   html {
     scroll-behavior: smooth;
   }
-  *,
-  *::after,
-  *::before {
-    transition: 0.1s linear;
-  }
 }

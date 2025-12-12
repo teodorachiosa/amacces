@@ -28,7 +28,7 @@
         </div>
         <div class="bottom">
             <span class="list-item-text"
-                [class]="{'good': waveReport.statistics.AIMscore > 7, 'neutral': waveReport.statistics.AIMscore <= 7 && waveReport.statistics.AIMscore >= 4, 'bad': waveReport.statistics.AIMscore < 4}">
+                [class]="{'good': waveReport.statistics.AIMscore > 7, 'neutral': waveReport.statistics.AIMscore <= 7 && waveReport.statistics.AIMscore > 3, 'bad': waveReport.statistics.AIMscore <= 3}">
                 <span class="score">
                     <span class="dot">
                         <span class="dot glow"></span>
